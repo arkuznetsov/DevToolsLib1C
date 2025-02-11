@@ -1,0 +1,39 @@
+{ "$schema":"https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/behavior-schema.json",
+    "ВыполнитьСценарии": true,
+    "ЗавершитьРаботуСистемы": true,
+    "ЗакрытьTestClientПослеЗапускаСценариев": true,
+    "DebugLog": false,
+
+    "КаталогПроекта": "$workspaceRoot",
+    "КаталогФич": "$workspaceRoot/tests/features",
+    "КаталогиБиблиотек": [
+        "$instrumentsRoot/features/libraries",
+        "$workspaceRoot/tests/features/step_definitions"
+    ],
+
+    "ИмяСборки": "spec8task",
+
+    "СписокТеговИсключение": [
+        "IgnoreOnCIMainBuild",
+        "FirstStart",
+        "Draft"
+    ],
+
+    "ДелатьОтчетВФорматеjUnit": true,
+    "ДелатьОтчетВФорматеАллюр": true,
+    "КаталогOutputAllureБазовый": "$workspaceRoot/out/allure/bdd",
+    "КаталогOutputjUnit": "$workspaceRoot/out/junit/bdd",
+    
+    "ВыгружатьСтатусВыполненияСценариевВФайл": true,
+    "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": "$workspaceRoot/out/bdd_status.log",
+    
+    "ДелатьЛогВыполненияСценариевВТекстовыйФайл": false,
+    "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/out/bdd_executionlog.log",
+
+    "ВыводитьВЛогВыполнениеШагов": false,
+    "ДелатьЛогВыполненияСценариевВЖР": false,
+
+    "ДелатьСкриншотПриВозникновенииОшибки": true,
+	"КомандаСделатьСкриншот": "nircmd savescreenshot ",
+	"ОТКЛЮЧЕН_КомандаСделатьСкриншот": "\"C:\\Program Files (x86)\\IrfanView\\i_view32.exe\" /capture=1 /convert="
+}

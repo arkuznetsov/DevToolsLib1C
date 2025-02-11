@@ -1,0 +1,108 @@
+{
+  "agent": "build",
+  "timeout": 600,
+  "v8Version": "8.3.23.2236",
+  "ibcmdVersion": "8.3.23.2236",
+  "vrunnerConfig": "./tools/config/vRunner.json",
+  "defaultInfobase": {
+    "connectionString": "/S\"srv_1c\\TST1_DTL_CONF_DKP3\"",
+    "ibType": "MSSQLServer",
+    "ibServer": "srv_1c",
+    "ibName": "TST1_DTL_CONF_DKP3",
+    "dbServer": "srv_db",
+    "dbName": "TST1_DTL_CONF_DKP3",
+    "auth": "TST1_DTL_CONF_DKP3_IB_CI",
+    "dbAuth": "TST_SQL_CI"
+  },
+  "notification": {
+    "mode": "EMAIL",
+    "email": "akuznetsov@1bit.com"
+  },
+  "useIbcmd": true,
+  "ibcmdData": "./out/ibcmd-data",
+  "ibcmdCleanData": false,
+  "stages": {
+    "prepareBase": true,
+    "syntaxCheck": true,
+    "smoke": true,
+    "tdd": true,
+    "bdd": true,
+    "sonarqube": true,
+    "build": true
+  },
+  "preparebase": {
+    "timeout": 200,
+    "useExistedIb": true,
+    "sourcePath": "src/main",
+    "updateInfobase": true,
+    "loadRetryCount": 3,
+    "loadRetryTimeout": 15,
+    "extensions": [
+      {
+        "name": "БиблиотекаИнструментовРазработки",
+        "sourcePath": "src/dtl"
+      }
+    ]
+  },
+  "syntaxCheck": {
+    "timeout": 240,
+    "allurePath": "./out/allure-report/syntaxCheck",
+    "junitPath": "./out/junit/syntaxCheck.xml",
+    "checkExtensions": true,
+    "checkBaseConf": true,
+    "extensions": [
+      {
+        "name": "БиблиотекаИнструментовРазработки"
+      }
+    ],
+    "groupByMetadata": true,
+    "mode": [
+      "-ThinClient",
+      "-WebClient",
+      "-Server",
+      "-IncorrectReferences",
+      "-HandlersExistence",
+      "-EmptyHandlers",
+      "-ExtendedModulesCheck"
+    ],
+    "exceptionFile": "./tools/config/syntax-check-exceptions.txt"
+  },
+  "smoke": {
+    "agent": "test",
+    "testPath": "./tests/smoke",
+    "xddConfig": "./tools/config/smokeTestConf.json",
+    "timeout": 100
+  },
+  "tdd": {
+    "agent": "test",
+    "testPath": "./tests/unit",
+    "xddConfig": "./tools/config/unitTestConf.json",
+    "timeout": 100
+  },
+  "bdd": {
+    "agent": "bdd",
+    "timeout": 100,
+    "vanessasettings": "./tools/config/VAParams.json"
+  },
+  "sonarqube": {
+    "agent": "sonar",
+    "debug": false,
+    "serverId": "SonarQube",
+    "timeout": 200,
+    "toolId": "sonar-scanner",
+    "useBranch": true
+  },
+  "build": {
+    "distPath": "build/1cv8.cf",
+    "makeBuildBaseConf": true,
+    "extensions": [
+      {
+        "name": "БиблиотекаИнструментовРазработки",
+        "outPath": "build/cfe/БиблиотекаИнструментовРазработки.cfe"
+      }
+    ],
+    "errorIfJobStatusOfFailure": false,
+    "timeout": 200
+  }
+}
+

@@ -1,0 +1,3 @@
+@Library('usher2@ibcmd') _
+
+buildPipeline('tools/pipeline/ci.json', 'build')

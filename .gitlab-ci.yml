@@ -1,0 +1,32 @@
+stages:
+  - mr-quality-check
+
+variables:
+  GIT_STRATEGY: clone
+  GIT_DEPTH: 0
+
+before_script:
+  - git config --local core.quotepath false
+
+sonar-analize:
+  stage: mr-quality-check
+  tags:
+    - sonar
+  rules:
+    # только при событии merge_request_event и на основной ветке (develop)
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event' && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+      changes:
+        - 'src/**/*.bsl'
+        - 'src/**/*.xml'
+        - 'src/**/*.html'
+      when: always
+      allow_failure: true
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"
+    GIT_DEPTH: "0"
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - .sonar/cache
+  script:
+    - sonar-scanner -D"sonar.sourceEncoding=UTF-8" -D"sonar.host.url=$env:SONAR_HOST_URL" -D"sonar.token=$env:SONAR_TOKEN" -D"project.settings=./sonar-project.properties" -D"sonar.qualitygate.wait=true"

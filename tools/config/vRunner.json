@@ -1,0 +1,37 @@
+{   "$schema": "https://raw.githubusercontent.com/silverbulleters/vanessa-runner/develop/vanessa-runner-schema.json",
+    "default": {
+        "--workspace": ".",
+        "--additional": "/DisplayAllFunctions /Lru  /iTaxi",
+        "--ordinaryapp": "-1",
+        "--allure-results2": "out/allure/syntaxCheck"
+    },
+
+    "syntax-check": {
+        "--groupbymetadata":true,
+        "--exception-file":"",
+        "--mode": [
+            "-ConfigLogIntegrity",
+            // "-IncorrectReferences",
+            "-Server",
+            "-ThinClient",
+            "-UnreferenceProcedures",
+            "-HandlersExistence",
+            "-EmptyHandlers",
+            "-ExtendedModulesCheck"
+        ]
+        // "-Extension" : "ИмяРасширения",
+        // "-AllExtensions" : true
+    },
+
+    "run": {
+        "--command": "ЗапуститьОбновлениеИнформационнойБазы;ЗавершитьРаботуСистемы;",
+        "--execute": "$runnerRoot/epf/ЗакрытьПредприятие.epf"
+      },
+
+    "vanessa": {
+        "--vanessasettings": "./tools/config/VAParams.json",
+        "--workspace": ".",
+        "--pathvanessa": "D:\\tools\\OneScript\\lib\\vanessa-automation\\vanessa-automation.epf",
+        "--additional": "/DisplayAllFunctions /L ru"
+    }
+  }
