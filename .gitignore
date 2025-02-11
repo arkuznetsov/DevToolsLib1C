@@ -1,7 +1,7 @@
 ﻿.vscode/
 .scannerwork/
 .sonar/
-base1c/
+base1c/**/*.cf*
 build/
 out/
 .env
