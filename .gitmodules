@@ -1,0 +1,4 @@
+[submodule "1CFilesConverter"]
+	path = tools/1CFilesConverter
+	url = https://github.com/ArKuznetsov/1CFilesConverter.git
+	branch = master
