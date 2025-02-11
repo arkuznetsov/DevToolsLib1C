@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d77e50f8-bb1e-4504-a06b-5cc1beaa27a7">
+  <name>бир_ДобавлениеИзменениеНастроекРасположенияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение настроек расположения ИБ</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b21c5be6-3669-423d-ac43-da1cd87c236a">
+  <name>бир_СобытияВсеНаборыЗаписейОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - все наборы записей - обработка проверки заполнения</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>CalculationRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>SequenceRecordSet</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.бир_События.СобытияВсеНаборыЗаписейОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

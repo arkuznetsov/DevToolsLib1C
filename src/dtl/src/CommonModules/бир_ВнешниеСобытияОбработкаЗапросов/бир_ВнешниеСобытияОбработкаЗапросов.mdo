@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb523b51-6dc2-4085-8b90-7f37ef0b6a8d">
+  <name>бир_ВнешниеСобытияОбработкаЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние ИБ (Обрабтка запросов)</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

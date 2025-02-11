@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="179c1f99-8fd2-47e4-869a-5b62f6dc2019">
+  <producedTypes>
+    <objectType typeId="009d754b-e3b5-4985-9d4a-7d336c61241b" valueTypeId="3897d1a3-76bd-4457-b1a4-b5f81674283d"/>
+    <managerType typeId="d7aa6d53-a257-4912-985e-e9f31f6e2763" valueTypeId="1b361dcf-7f79-4e8b-a1e3-942ee3e7ec09"/>
+  </producedTypes>
+  <name>бир_ПроцессорЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессор запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_ПроцессорЗапросов.Form.Форма</defaultForm>
+  <forms uuid="6906a814-cac7-4861-8b94-0fd0106cba39">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9cd4aa54-934c-41b4-ba1e-202ccbbbc168">
+    <name>ВерсияОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия обработки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

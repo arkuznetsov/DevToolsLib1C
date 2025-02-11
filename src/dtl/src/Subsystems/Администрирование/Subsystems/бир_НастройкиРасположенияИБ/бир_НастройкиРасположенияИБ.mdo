@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70989bb8-451a-4c1c-88c1-12013f33f910">
+  <name>бир_НастройкиРасположенияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки расположения ИБ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.бир_РасположениеБазы16</picture>
+  </picture>
+  <content>Catalog.бир_РасположенияИБ</content>
+  <content>Catalog.бир_НастройкиРасположенияИБ</content>
+  <content>Constant.бир_ПоследнееРасположениеИБ</content>
+  <content>CommonModule.бир_РасположениеИБВызовСервера</content>
+  <content>CommonModule.бир_РасположениеИБКлиент</content>
+  <content>Role.бир_ЧтениеНастроекРасположенияИБ</content>
+  <content>Style.бир_Фуксия</content>
+  <content>Style.бир_Зеленый</content>
+  <content>8c41ae44-233c-4e46-a911-3352bb2fec2a</content>
+  <content>34c4b3a3-567f-43d8-b631-aa99f94d2513</content>
+  <content>f50d7a2a-3a3b-48c5-ac57-3d0ff7f64102</content>
+  <content>878129ff-11bc-4e66-9d9d-7e93b4bea81d</content>
+  <content>7255ff6e-b94b-4fd6-871d-f722f20b7d40</content>
+  <content>CommonPicture.бир_РасположениеБазы16</content>
+  <content>CommonPicture.бир_РасположениеБазы24</content>
+  <content>CommonPicture.бир_РасположениеБазы32</content>
+  <content>CommonPicture.бир_РасположениеБазы48</content>
+  <content>CommonPicture.бир_РасположениеБазы64</content>
+  <content>Style.бир_Голубой</content>
+  <content>Style.бир_Бежевый</content>
+  <content>Style.бир_Розовый</content>
+  <content>Style.бир_СероГолубой</content>
+  <content>Style.бир_Серый</content>
+  <content>Style.бир_Синий</content>
+  <content>Style.бир_Сиреневый</content>
+  <content>Style.бир_ТемноСерый</content>
+  <content>Style.бир_Хаки</content>
+  <content>SessionParameter.бир_ТекущееРасположениеИБ</content>
+  <content>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</content>
+  <content>CommonModule.бир_РасположениеИБКлиентСервер</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

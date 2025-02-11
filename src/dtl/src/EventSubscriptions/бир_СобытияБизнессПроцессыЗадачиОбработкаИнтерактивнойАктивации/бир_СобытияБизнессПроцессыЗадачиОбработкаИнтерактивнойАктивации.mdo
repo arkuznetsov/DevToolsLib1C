@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49c7930-41d3-483c-98c1-6d34166704c4">
+  <name>бир_СобытияБизнессПроцессыЗадачиОбработкаИнтерактивнойАктивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - бизнесс процессы / задачи - обработка интерактивной активации</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>TaskObject</types>
+  </source>
+  <event>InteractiveActivationProcessing</event>
+  <handler>CommonModule.бир_События.СобытияБизнессПроцессыЗадачиОбработкаИнтерактивнойАктивации</handler>
+</mdclass:EventSubscription>

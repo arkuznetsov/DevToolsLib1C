@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d80f7a45-577b-4eb6-a29c-c09b1f808d93">
+  <producedTypes>
+    <objectType typeId="4cecf1de-cc3f-41b0-9494-d425ce336a85" valueTypeId="baeb3939-ab6e-4dad-bc7c-a4bf860d100c"/>
+    <managerType typeId="c6a31ad8-d782-4734-bf90-4e219c28a582" valueTypeId="4b80b1d2-45d3-4067-80eb-150a09a066d6"/>
+  </producedTypes>
+  <name>бир_ПреобразованиеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Преобразование данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="47416b89-9a7b-4f7b-8e74-4b2a0d835c85">
+    <name>ОписаниеТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание типов (json)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3c9b4b7b-bc33-4141-9600-410989f91e42">
+    <name>ВерсияБиблиотеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия библиотеки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4b1fe657-1719-4284-bd27-771c37ae2264">
+    <name>Перечисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечисления</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6a982de6-bead-4b9a-93e4-ea4f74a17d2e">
+    <name>ТипыЗначенийСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы значений СКД</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b87c8903-9d65-48a7-b9f9-2bcf580a8295">
+    <name>Цвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвета</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e2020e77-9238-4689-bc4e-b20d7e419d67">
+    <name>Шрифты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b603f92a-108d-4d4d-a3db-a4d2808ad67c">
+    <name>Рамки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рамки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4da88e4a-77c4-401d-8368-70d1c0cbe2e8">
+    <name>Картинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c0a6536-5fb9-4def-a93f-aa08a739141f">
+  <name>бир_СобытияЗадачиПередВыполнением</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - задачи - перед выполнением</value>
+  </synonym>
+  <source>
+    <types>TaskObject</types>
+  </source>
+  <event>BeforeExecute</event>
+  <handler>CommonModule.бир_События.СобытияЗадачиПередВыполнением</handler>
+</mdclass:EventSubscription>

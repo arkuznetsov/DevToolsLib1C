@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="038ef738-a90d-4f90-a404-7647d5a7a42b">
+  <producedTypes>
+    <objectType typeId="053a73ae-bcaa-412e-8b04-74c08e177133" valueTypeId="660f62c4-9576-49d0-9af1-02b01ad4548d"/>
+    <managerType typeId="a52f79d5-c816-4c5c-b9b8-2ebb298a2cdf" valueTypeId="fe20b3f0-0e55-4dc9-aa4b-e8a258ef2075"/>
+  </producedTypes>
+  <name>бир_СохранениеВосстановлениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение/восстановление данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_СохранениеВосстановлениеДанных.Form.Форма</defaultForm>
+  <forms uuid="438b2bf5-ec7b-4803-bfbd-64f2c51e0bac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53540080-a3af-402c-95ee-ffd2a6fdc14a">
+    <name>ФормаВыбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="37bbb43a-55a2-4461-88bf-d346ea2b4c0b">
+    <name>Сохранить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить</value>
+    </synonym>
+    <group>CommandGroup.бир_СохранениеВосстановлениеДанных</group>
+    <commandParameterType>
+      <types>DefinedType.бир_СохраняемыеДанные</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SaveReportSettings</picture>
+    </picture>
+  </commands>
+  <commands uuid="2ae3184c-8701-49ea-847b-67eb99302205">
+    <name>Восстановить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановить</value>
+    </synonym>
+    <group>CommandGroup.бир_СохранениеВосстановлениеДанных</group>
+    <commandParameterType>
+      <types>DefinedType.бир_СохраняемыеДанные</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.LoadReportSettings</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

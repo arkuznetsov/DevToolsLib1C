@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1fe3b74-7056-493d-8a59-ffa8203cbbbb">
+  <name>бир_ЧтениеНастроекРасположенияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек расположения ИБ</value>
+  </synonym>
+</mdclass:Role>

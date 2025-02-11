@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ccbc948-8413-4f9b-9844-a4bd9731e8fb">
+  <name>бир_ВнешниеИБОбработкаЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>DB data inteface</value>
+  </synonym>
+  <rootURL>IDBData</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="16ad7fd7-8db8-4a7b-a50f-9172788c080d">
+    <name>ОписаниеЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание запроса</value>
+    </synonym>
+    <template>/GetQueryDescription</template>
+    <methods uuid="a107e099-bc44-4496-afe2-b8e4c0296b70">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ОписаниеЗапросаGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="edab6871-e4e9-4750-9667-036a70fc7b32">
+    <name>РезультатЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат запроса</value>
+    </synonym>
+    <template>/GetQueryResult</template>
+    <methods uuid="152545ff-98cb-4446-94f9-c141c80fe3f6">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>РезультатЗапросаPost</handler>
+    </methods>
+    <methods uuid="1d01daed-88be-4e6a-9111-8ec429da47d8">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>РезультатЗапросаGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a9325cc0-5866-4c4b-ab5c-2ae3783efcff">
+    <name>СписокЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список запросов</value>
+    </synonym>
+    <template>/GetQueriesList</template>
+    <methods uuid="ee5fbe0d-b77c-45b0-b5f4-015f172f5717">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ЗапросыGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd715730-99e3-46a5-8c06-d1f8b61473b5">
+  <name>бир_ТекущееРасположениеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущее расположение ИБ</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.бир_РасположенияИБ</types>
+  </type>
+</mdclass:SessionParameter>

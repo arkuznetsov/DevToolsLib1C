@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a9c84fa-7a1e-422d-b5b4-60cd2a6a2cd3">
+  <name>бир_Сиреневый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сиреневый</value>
+  </synonym>
+</mdclass:Style>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83f4147e-a150-476a-8a81-9c733c73d2a5">
+  <name>бир_СобытияДокументыОбработкаУдаленияПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - документы - обработка удаления проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.бир_События.СобытияДокументыОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

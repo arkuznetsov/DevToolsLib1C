@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19c8be88-9857-4939-ad10-b209ec6e8b35">
+  <name>бир_СобытияРегистрыСведенийОбработкаЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - регистры сведений - обработка заполнения</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.бир_События.СобытияРегистрыСведенийОбработкаЗаполнения</handler>
+</mdclass:EventSubscription>

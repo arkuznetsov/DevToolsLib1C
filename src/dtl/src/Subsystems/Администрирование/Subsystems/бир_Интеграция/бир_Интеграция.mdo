@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="067e29a7-92aa-4f92-8a4d-f7bd1074410f">
+  <name>бир_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ExchangePlan.бир_ИнформационныеБазы</content>
+  <content>Catalog.бир_АдресаСервисов</content>
+  <content>Catalog.бир_ЗапросыКДанным</content>
+  <content>DataProcessor.бир_ВнешниеИБКонсоль</content>
+  <content>DataProcessor.бир_ПреобразованиеДанных</content>
+  <content>DataProcessor.бир_ПроцессорЗапросов</content>
+  <content>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ</content>
+  <content>CommonModule.бир_ВнешниеИБОбработкаЗапросов</content>
+  <content>CommonModule.бир_ВнешниеСобытияОбработкаЗапросов</content>
+  <content>CommonModule.бир_КоннекторHTTP</content>
+  <content>CommonModule.бир_ВнешниеСобытияОтправкаЗапросов</content>
+  <content>CommonModule.бир_ВнешниеИБПолучениеДанных</content>
+  <content>Role.бир_ИспользованиеСервисаПолученияДанных</content>
+  <content>Role.бир_ИспользованиеСервисаСобытий</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

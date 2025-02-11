@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdee9670-d3c3-4325-af08-4d0e23bdd2ad">
+  <name>бир_СохранениеВосстановлениеДанныхКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение восстановление данных (клиент)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

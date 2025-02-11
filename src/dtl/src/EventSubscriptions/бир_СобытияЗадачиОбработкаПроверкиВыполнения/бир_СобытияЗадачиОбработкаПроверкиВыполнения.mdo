@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f0aeb82-b115-4525-a4ea-f0db69da00d9">
+  <name>бир_СобытияЗадачиОбработкаПроверкиВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - задачи - обработка проверки выполнения</value>
+  </synonym>
+  <source>
+    <types>TaskObject</types>
+  </source>
+  <event>CheckExecutionProcessing</event>
+  <handler>CommonModule.бир_События.СобытияЗадачиОбработкаПроверкиВыполнения</handler>
+</mdclass:EventSubscription>

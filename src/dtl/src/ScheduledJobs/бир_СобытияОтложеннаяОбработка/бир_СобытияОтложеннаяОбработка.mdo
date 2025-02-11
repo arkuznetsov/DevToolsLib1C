@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99745b7f-d078-4e9d-aa72-3d0b41f69464">
+  <name>бир_СобытияОтложеннаяОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>События: отложенная обработка</value>
+  </synonym>
+  <methodName>CommonModule.бир_События.СобытияОтложеннаяОбработка</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

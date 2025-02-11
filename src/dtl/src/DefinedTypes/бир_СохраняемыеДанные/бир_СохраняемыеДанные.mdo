@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f5ea49-f4ca-42ef-ae8a-e7ce561128e7">
+  <producedTypes>
+    <containerType typeId="6af75b6f-4bda-4845-aa9a-f2cbe517e7b1" valueTypeId="4f789b6e-6db6-4baf-aa6a-9c1f5ae63f0a"/>
+  </producedTypes>
+  <name>бир_СохраняемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохраняемые данные</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.бир_СобытияОбработчики</types>
+    <types>CatalogRef.бир_НастройкиРасположенияИБ</types>
+    <types>CatalogRef.бир_РасположенияИБ</types>
+    <types>ChartOfCharacteristicTypesRef.бир_Служебный_НастраиваемыеЗначения</types>
+    <types>CatalogRef.бир_ЗапросыКДанным</types>
+    <types>CatalogRef.бир_События</types>
+    <types>CatalogRef.бир_АдресаСервисов</types>
+    <types>CatalogRef.бир_СобытияТочкиВозникновения</types>
+  </type>
+</mdclass:DefinedType>

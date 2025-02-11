@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0875f7c-eab5-4c0c-9cb5-b15e66103f1b">
+  <name>бир_РасположениеБазы64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположение базы (64 px)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

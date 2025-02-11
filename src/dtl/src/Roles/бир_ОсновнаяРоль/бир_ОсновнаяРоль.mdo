@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c48d507e-5a96-4dc8-b5fd-1d2744f9a16c">
+  <name>бир_ОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полные права (СПК)</value>
+  </synonym>
+</mdclass:Role>

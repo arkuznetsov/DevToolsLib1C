@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1683a891-e4b4-4b29-860f-020dbea60606">
+  <name>бир_СобытияВсеОбъектыКромеДокументовПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - все объекты, кроме документов - перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.бир_События.СобытияВсеОбъектыКромеДокументовПередЗаписью</handler>
+</mdclass:EventSubscription>

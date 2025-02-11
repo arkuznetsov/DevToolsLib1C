@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b3d37a-5da1-4664-8d9b-9678c74bf995">
+  <producedTypes>
+    <selectionType typeId="1411ba0d-0e33-4009-b526-efba21be23a6" valueTypeId="9b56105e-b9d7-4896-ad2b-6818d1430f05"/>
+    <listType typeId="8ae8f67e-8401-491d-9eb4-6087198984dc" valueTypeId="16afd1a2-4eb6-462b-bbf3-ecc2ea59897d"/>
+    <managerType typeId="1c021f4f-2d92-422b-91c9-3c5d1d267797" valueTypeId="f79841c1-c118-45b4-9771-b13efba4829a"/>
+    <recordSetType typeId="755f27e7-4cb3-47d1-90c9-d3522389971c" valueTypeId="20d7ac93-3002-4cae-bb9e-09d1dff895f8"/>
+    <recordKeyType typeId="66b11c42-ebd4-46ef-9039-0ab17d13a619" valueTypeId="03ed2ae5-933c-487a-a92b-431081dd4f5e"/>
+    <recordType typeId="6ce30c3a-1669-4b7c-8294-0239ad5de9c9" valueTypeId="80c13e8d-1fe9-4a1a-ad16-eb29c8ab5075"/>
+    <recordManagerType typeId="cf3036d5-59c3-48e6-ac5f-50d0287c93eb" valueTypeId="0e853100-973a-4620-92f2-81d3acd06b9a"/>
+  </producedTypes>
+  <name>бир_СобытияНазначенныеОбработчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>События назначенные обработчики</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бир_СобытияНазначенныеОбработчики.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бир_СобытияНазначенныеОбработчики.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3bba6012-f3cc-4af8-8de9-a50471306324">
+    <name>ОтложеннаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенная обработка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлен, то обработчик будет выполнен сразу после регистрации, в противном случае обработчик будет запущен на выполнение из общего регламентного задания отложенной обработки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="91cb2353-3e95-4174-a4ed-38d3559ff579">
+    <name>РучнаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная обработка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Истина - Событие и назначенный обработчик будут зарегистрированы к выполнению, но выполнить обработчик можно будет только вручную из формы журнала событий.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="544fdf20-9070-4a26-8143-9ff7b296b6a6">
+    <name>ОжидатьЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидать завершения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлен, то обработчик будет выполнен в основном потоке исполнения, в противном случае обработчик будет запущен на выполнение в фоновом задании.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="18dc6bcc-7561-4a79-b4a7-64232853ed0f">
+    <name>ОбрабатыватьНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать на клиенте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="52a5ca12-3fed-4443-8841-9cf928364a41">
+    <name>ОбрабатыватьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5482e12-051a-4f79-be89-4c76ddccf618">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4839abd9-4da9-4296-97ea-f2444e25aa95">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бир_События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6c4d5135-4db8-438b-9930-ee76b92a56ab">
+    <name>ИсточникВозникновения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник возникновения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.бир_СобытияТочкиВозникновения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8384d306-fcfc-487c-89d4-d96ddd9ab6ac">
+    <name>Обработчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бир_СобытияОбработчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7da2687f-d88d-4a49-9122-9643c41d620c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="795ab943-3cc3-4afc-b668-fdd140d5f497">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="12a565c8-d125-4ac7-8991-d3fc4b9943ec">
+    <name>СобытияНазначенныеОбработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначенные обработчики событий</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.бир_События</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="66c0904e-37ca-41de-b16e-e062d0b397e7">
+    <name>СобытияНазначенныеОбработчикиОбщие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначенные обработчики событий</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

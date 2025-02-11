@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39800589-78b4-48d3-93cc-7e0470dcc8dd">
+  <name>бир_ВнешниеСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние события (WFT)</value>
+  </synonym>
+  <rootURL>EventHub</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="710f9888-04b8-41d0-927e-3e12a04f7c2a">
+    <name>ВозможныеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможные события</value>
+    </synonym>
+    <template>/PossibleEvents</template>
+    <methods uuid="0daec452-eeb7-4c8b-adc3-d73b174ea4c4">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ЗарегистрированныеСобытияGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8b7c1063-f13d-4471-a364-74c0b502c207">
+    <name>ЗарегистрироватьСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировать событие</value>
+    </synonym>
+    <template>/RiseEvent</template>
+    <methods uuid="f290c172-cd90-4b71-9b23-7e502e05a67e">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗарегистрироватьСобытиеPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c84edfd8-ba13-4f7e-82ee-a6a05ec1f06d">
+    <name>ТочкиВозникновенияСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точки возникновения событий</value>
+    </synonym>
+    <template>/EventPoints</template>
+    <methods uuid="b99f66d8-89a5-4139-a3df-313dc425d509">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ТочкиВозникновенияСобытийGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="727a6788-69a2-4e05-9caa-776c99120e50">
+    <name>ЭтаТочкаВозникновенияСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эта точка возникновения событий</value>
+    </synonym>
+    <template>/ThisEventPoint</template>
+    <methods uuid="2336b6d1-09d2-40a7-bcb1-00d344cc7b6c">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ЭтаТочкаВозникновенияСобытийGet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b64497b6-3fed-4821-8974-aea01c4ec649">
+  <name>бир_Фуксия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фуксия</value>
+  </synonym>
+</mdclass:Style>

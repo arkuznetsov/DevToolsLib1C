@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="176a7b31-b871-4dc0-b438-472854b596c8">
+  <producedTypes>
+    <objectType typeId="277f2614-e2ea-4870-8911-34c05d68484c" valueTypeId="795b0db4-cff6-4f73-a75c-217023c0304d"/>
+    <managerType typeId="3da3010a-ca35-4868-9d3f-57fdde9c5cc5" valueTypeId="7b13f547-5f24-4749-8f2f-d9eb612342e2"/>
+  </producedTypes>
+  <name>бир_ВнешниеИБКонсоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль получения данных из внешних ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_ВнешниеИБКонсоль.Form.Форма</defaultForm>
+  <forms uuid="8fda50a6-393b-49af-ae1b-5347130d8b5d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c47f536-dcc9-449f-b3a6-865172076043">
+  <name>бир_СохранениеВосстановлениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение восстановление данных</value>
+  </synonym>
+</mdclass:Role>

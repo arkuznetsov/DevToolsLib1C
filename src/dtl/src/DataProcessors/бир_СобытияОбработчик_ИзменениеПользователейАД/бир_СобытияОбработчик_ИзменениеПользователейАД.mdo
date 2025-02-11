@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea1c8ce4-a313-4e77-bd2d-850738849440">
+  <producedTypes>
+    <objectType typeId="4cf67068-5cf6-4034-af40-5f1404596ac2" valueTypeId="1bcdf48d-d441-444a-a919-a5bfd7a75c88"/>
+    <managerType typeId="8633ab1e-b601-4de9-9843-0dbc41e16036" valueTypeId="12e12538-3682-4338-ae86-965e9a7988ca"/>
+  </producedTypes>
+  <name>бир_СобытияОбработчик_ИзменениеПользователейАД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик изменения пользователей в Active Directory</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД.Form.Форма</defaultForm>
+  <forms uuid="d2f2a9e0-9fa6-4d11-91c9-91941288907e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

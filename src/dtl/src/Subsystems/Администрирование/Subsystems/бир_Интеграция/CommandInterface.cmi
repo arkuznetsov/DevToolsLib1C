@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:2b959c76-3da3-4a28-84c9-e83a693fb442</commands>
+      <commands>ExchangePlan.бир_ИнформационныеБазы.StandardCommand.OpenList</commands>
+      <commands>0:c18f0ee2-8e1f-4a2b-ac43-3c5ba53b9958</commands>
+      <commands>0:1a88c085-83ad-4a1e-9188-32c40d7fe241</commands>
+      <commands>0:538e558e-2c84-4ca5-a565-e856dc961cb4</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

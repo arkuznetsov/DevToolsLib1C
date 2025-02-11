@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2f2a235-d161-47a7-81db-cb849437eaef">
+  <name>бир_СобытияВсеОбъектыОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - все объекты - обработка проверки заполнения</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>ExchangePlanObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.бир_События.СобытияВсеОбъектыОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

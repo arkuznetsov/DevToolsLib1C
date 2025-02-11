@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fdd820a-7bb3-4ba7-a3d4-69c324c7500c">
+  <name>бир_СобытияУдалениеОбработанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>События: удаление обработанных</value>
+  </synonym>
+  <methodName>CommonModule.бир_События.СобытияУдалениеОбработанных</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

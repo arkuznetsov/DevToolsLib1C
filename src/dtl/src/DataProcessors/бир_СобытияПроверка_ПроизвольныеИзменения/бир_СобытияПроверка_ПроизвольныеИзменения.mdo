@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d297eec1-f48d-4ecf-bc0d-598ec1138bfe">
+  <producedTypes>
+    <objectType typeId="56ca4c32-6053-4f19-bbfa-c01cbd0c98d3" valueTypeId="24b03d2b-b358-4dee-99c6-8696758c4bde"/>
+    <managerType typeId="9472a7ab-f160-49bc-80c1-26e363d0e0c7" valueTypeId="74e4dd61-8e1c-48a0-b89c-cfa046b05732"/>
+  </producedTypes>
+  <name>бир_СобытияПроверка_ПроизвольныеИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка события: Произвольные изменения</value>
+  </synonym>
+  <defaultForm>DataProcessor.бир_СобытияПроверка_ПроизвольныеИзменения.Form.Форма</defaultForm>
+  <forms uuid="574a4ba7-ce50-4a5d-9657-6c6ba95f8aae">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

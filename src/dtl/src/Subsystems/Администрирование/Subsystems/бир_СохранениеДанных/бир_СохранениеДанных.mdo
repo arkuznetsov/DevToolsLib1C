@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a1f42f-a866-4828-8ec6-a6e920f4586f">
+  <name>бир_СохранениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.бир_ПреобразованиеДанных</content>
+  <content>DataProcessor.бир_ПроцессорЗапросов</content>
+  <content>DataProcessor.бир_СохранениеВосстановлениеДанных</content>
+  <content>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</content>
+  <content>Role.бир_СохранениеВосстановлениеДанных</content>
+  <content>CommandGroup.бир_СохранениеВосстановлениеДанных</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

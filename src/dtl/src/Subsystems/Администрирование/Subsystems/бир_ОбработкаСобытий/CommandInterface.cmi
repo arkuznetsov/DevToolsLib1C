@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.бир_СобытияНазначенныеОбработчики.Command.СобытияНазначенныеОбработчикиОбщие</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияПроверка_ИзменениеОбъекта.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияОбработчик_УниверсальныйОбработчик.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.бир_События.Command.ЖурналСобытийОбщий</commands>
+      <commands>InformationRegister.бир_СобытияНазначенныеОбработчики.Command.СобытияНазначенныеОбработчикиОбщие</commands>
+      <commands>Catalog.бир_События.StandardCommand.OpenList</commands>
+      <commands>Catalog.бир_СобытияОбработчики.StandardCommand.OpenList</commands>
+      <commands>Catalog.бир_СобытияТочкиВозникновения.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

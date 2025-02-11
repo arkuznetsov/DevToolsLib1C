@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a7998334-7b25-453e-af9d-825d772243e1">
+  <name>БиблиотекаИнструментовРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека инструментов разработки</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cce836d1-97c7-468f-9381-02850605a24c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="55728b11-2c5d-4eca-800e-fc6ed8f267e9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7e8c886c-e8fe-4308-8af4-21dd3ecffa8b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fd014640-136b-47dd-89eb-4e81479426f6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="507a653e-cfa1-47cf-9658-3168c2820d0d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3ce15bf8-ba28-4733-95c8-ce692ca0008f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e7dfcabf-e837-4cbe-9269-2e48312e143e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>бир_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.бир_ОсновнаяРоль</defaultRoles>
+  <vendor>ktb</vendor>
+  <version>1.0.2.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="80cf718b-3be0-4bdc-a001-e4eb068c284d" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.бир_БиблиотекаИнструментовРазработки</subsystems>
+  <styles>Style.бир_Бежевый</styles>
+  <styles>Style.бир_Голубой</styles>
+  <styles>Style.бир_Зеленый</styles>
+  <styles>Style.бир_Розовый</styles>
+  <styles>Style.бир_СероГолубой</styles>
+  <styles>Style.бир_Серый</styles>
+  <styles>Style.бир_Синий</styles>
+  <styles>Style.бир_Сиреневый</styles>
+  <styles>Style.бир_ТемноСерый</styles>
+  <styles>Style.бир_Фуксия</styles>
+  <styles>Style.бир_Хаки</styles>
+  <commonPictures>CommonPicture.бир_РасположениеБазы16</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы24</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы32</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы48</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы64</commonPictures>
+  <sessionParameters>SessionParameter.бир_ТекущееРасположениеИБ</sessionParameters>
+  <roles>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</roles>
+  <roles>Role.бир_ИспользованиеСервисаПолученияДанных</roles>
+  <roles>Role.бир_ИспользованиеСервисаСобытий</roles>
+  <roles>Role.бир_ОсновнаяРоль</roles>
+  <roles>Role.бир_СобытияИспользование</roles>
+  <roles>Role.бир_СобытияНастройка</roles>
+  <roles>Role.бир_СохранениеВосстановлениеДанных</roles>
+  <roles>Role.бир_ЧтениеНастроекРасположенияИБ</roles>
+  <commonTemplates>CommonTemplate.бир_ВерсияСистемы</commonTemplates>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.бир_ВнешниеИБОбработкаЗапросов</commonModules>
+  <commonModules>CommonModule.бир_ВнешниеСобытияОбработкаЗапросов</commonModules>
+  <commonModules>CommonModule.бир_КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.бир_ВнешниеСобытияОтправкаЗапросов</commonModules>
+  <commonModules>CommonModule.бир_ВнешниеИБПолучениеДанных</commonModules>
+  <commonModules>CommonModule.бир_ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.бир_ОбработкиОбслуживания</commonModules>
+  <commonModules>CommonModule.бир_ОбработкиОбслуживанияВызовСервера</commonModules>
+  <commonModules>CommonModule.бир_ОбработкиОбслуживанияКлиент</commonModules>
+  <commonModules>CommonModule.бир_РасположениеИБВызовСервера</commonModules>
+  <commonModules>CommonModule.бир_РасположениеИБКлиент</commonModules>
+  <commonModules>CommonModule.бир_РасположениеИБКлиентСервер</commonModules>
+  <commonModules>CommonModule.бир_События</commonModules>
+  <commonModules>CommonModule.бир_СобытияВызовСервера</commonModules>
+  <commonModules>CommonModule.бир_СобытияГлобальный</commonModules>
+  <commonModules>CommonModule.бир_СобытияКлиент</commonModules>
+  <commonModules>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</commonModules>
+  <exchangePlans>ExchangePlan.бир_ИнформационныеБазы</exchangePlans>
+  <httpServices>HTTPService.бир_ВнешниеИБОбработкаЗапросов</httpServices>
+  <httpServices>HTTPService.бир_ВнешниеСобытия</httpServices>
+  <eventSubscriptions>EventSubscription.бир_СобытияБизнессПроцессыЗадачиОбработкаИнтерактивнойАктивации</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеНаборыЗаписейКромеРегистраРасчетовПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеНаборыЗаписейКромеРегистраРасчетовПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеНаборыЗаписейОбработкаПроверкиЗаполнения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыКромеДокументовПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыОбработкаЗаполнения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыОбработкаПроверкиЗаполнения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыПередУдалением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияВсеОбъектыПриКопировании</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияДокументыОбработкаПроведения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияДокументыОбработкаУдаленияПроведения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияДокументыПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияЗадачиОбработкаПроверкиВыполнения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияЗадачиПередВыполнением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияЗадачиПередИнтерактивнымВыполнением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияЗадачиПриВыполнении</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.бир_СобытияРегистрыСведенийОбработкаЗаполнения</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.бир_СобытияОтложеннаяОбработка</scheduledJobs>
+  <scheduledJobs>ScheduledJob.бир_СобытияУдалениеОбработанных</scheduledJobs>
+  <definedTypes>DefinedType.бир_СохраняемыеДанные</definedTypes>
+  <commandGroups>CommandGroup.бир_СохранениеВосстановлениеДанных</commandGroups>
+  <constants>Constant.бир_ПоследнееРасположениеИБ</constants>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.бир_АдресаСервисов</catalogs>
+  <catalogs>Catalog.бир_ЗапросыКДанным</catalogs>
+  <catalogs>Catalog.бир_НастройкиРасположенияИБ</catalogs>
+  <catalogs>Catalog.бир_РасположенияИБ</catalogs>
+  <catalogs>Catalog.бир_События</catalogs>
+  <catalogs>Catalog.бир_СобытияОбработчики</catalogs>
+  <catalogs>Catalog.бир_СобытияТочкиВозникновения</catalogs>
+  <dataProcessors>DataProcessor.бир_ВнешниеИБКонсоль</dataProcessors>
+  <dataProcessors>DataProcessor.бир_ПреобразованиеДанных</dataProcessors>
+  <dataProcessors>DataProcessor.бир_ПроцессорЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияОбработчик_УниверсальныйОбработчик</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияПроверка_ИзменениеОбъекта</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияПроверка_ПроизвольныеИзменения</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СобытияПроверка_УниверсальнаяПроверка</dataProcessors>
+  <dataProcessors>DataProcessor.бир_СохранениеВосстановлениеДанных</dataProcessors>
+  <informationRegisters>InformationRegister.бир_События</informationRegisters>
+  <informationRegisters>InformationRegister.бир_СобытияНазначенныеОбработчики</informationRegisters>
+  <informationRegisters>InformationRegister.бир_СобытияОбработка</informationRegisters>
+  <informationRegisters>InformationRegister.бир_СобытияОбработкаНаКлиенте</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

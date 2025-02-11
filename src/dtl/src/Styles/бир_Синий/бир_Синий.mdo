@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7b317c2-9c21-4e2f-9816-9d6631cfad0c">
+  <name>бир_Синий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синий</value>
+  </synonym>
+</mdclass:Style>

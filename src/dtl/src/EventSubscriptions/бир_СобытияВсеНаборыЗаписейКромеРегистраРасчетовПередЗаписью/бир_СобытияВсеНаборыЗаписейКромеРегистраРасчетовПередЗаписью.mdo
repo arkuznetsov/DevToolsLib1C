@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e09449b-32ad-41df-834f-af0471b8edb6">
+  <name>бир_СобытияВсеНаборыЗаписейКромеРегистраРасчетовПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - все наборы записей, кроме регистра расчетов - перед записью</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>SequenceRecordSet</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.бир_События.СобытияВсеНаборыЗаписейКромеРегистраРасчетовПередЗаписью</handler>
+</mdclass:EventSubscription>

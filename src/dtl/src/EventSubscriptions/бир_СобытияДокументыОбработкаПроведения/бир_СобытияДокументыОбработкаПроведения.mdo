@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dcf20fd-4630-4304-a05f-808be890d4db">
+  <name>бир_СобытияДокументыОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>События - документы - обработка проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.бир_События.СобытияДокументыОбработкаПроведения</handler>
+</mdclass:EventSubscription>

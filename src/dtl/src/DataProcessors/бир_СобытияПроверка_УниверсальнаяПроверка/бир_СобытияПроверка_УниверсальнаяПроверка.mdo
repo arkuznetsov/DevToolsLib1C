@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eefeb2df-f7ca-4f91-8c9e-5d4f7824893d">
+  <producedTypes>
+    <objectType typeId="8e95974a-acfc-46a1-9a98-dc990dc1b945" valueTypeId="2e403794-983a-4294-ac41-d196fe839a7b"/>
+    <managerType typeId="d0e07f0a-47ba-42c7-8268-6d06f298810c" valueTypeId="707eeab5-c5bd-4871-8778-7826e9420bf8"/>
+  </producedTypes>
+  <name>бир_СобытияПроверка_УниверсальнаяПроверка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка события: Универсальная проверка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_СобытияПроверка_УниверсальнаяПроверка.Form.Форма</defaultForm>
+  <forms uuid="2efa4462-a325-4885-a3e1-3d4b25cca317">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

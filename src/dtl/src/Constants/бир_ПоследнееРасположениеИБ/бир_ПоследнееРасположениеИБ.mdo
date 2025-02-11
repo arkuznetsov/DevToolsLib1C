@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a4a3732-5c94-49ea-a61b-ce321b420260">
+  <producedTypes>
+    <managerType typeId="eac0066c-0145-46c4-b64e-e75de46a929e" valueTypeId="cdf76caf-70a8-40ac-9c46-db989f5e2d45"/>
+    <valueManagerType typeId="463b5ae9-b5b6-40a9-a992-794a98ececd0" valueTypeId="567c7a9b-c1b7-4274-907e-ceffc5722d58"/>
+    <valueKeyType typeId="763e93dd-c0d3-48df-83b8-ad68f071b583" valueTypeId="1e1c7656-9db3-4bcf-8a7b-4616cc5a2d48"/>
+  </producedTypes>
+  <name>бир_ПоследнееРасположениеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущее расположение ИБ</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.бир_РасположенияИБ</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
