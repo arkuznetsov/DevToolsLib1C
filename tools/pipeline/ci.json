@@ -5,13 +5,13 @@
   "ibcmdVersion": "8.3.23.2236",
   "vrunnerConfig": "./tools/config/vRunner.json",
   "defaultInfobase": {
-    "connectionString": "/S\"srv_1c\\TST1_DTL_CONF_DKP3\"",
+    "connectionString": "/S\"srv_1c\\TST1_DTL_EXT_DKP3\"",
     "ibType": "MSSQLServer",
     "ibServer": "srv_1c",
-    "ibName": "TST1_DTL_CONF_DKP3",
+    "ibName": "TST1_DTL_EXT_DKP3",
     "dbServer": "srv_db",
-    "dbName": "TST1_DTL_CONF_DKP3",
-    "auth": "TST1_DTL_CONF_DKP3_IB_CI",
+    "dbName": "TST1_DTL_EXT_DKP3",
+    "auth": "TST1_DTL_EXT_DKP3_IB_CI",
     "dbAuth": "TST_SQL_CI"
   },
   "notification": {
