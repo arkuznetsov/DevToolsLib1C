@@ -41,9 +41,6 @@
           <key>ru</key>
           <value>Не указан</value>
         </presentation>
-        <value xsi:type="core:ReferenceValue">
-          <value>96598d8f-9d4e-424a-a31b-0a92ced38174.00000000-0000-0000-0000-000000000000</value>
-        </value>
       </choiceList>
       <choiceList>
         <presentation>

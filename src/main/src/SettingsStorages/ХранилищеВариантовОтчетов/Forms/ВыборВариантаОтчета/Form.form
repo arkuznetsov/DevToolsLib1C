@@ -558,7 +558,7 @@
       <name>ДеревоВариантовОтчетаСтрокаПоиска</name>
       <id>47</id>
       <extendedTooltip>
-        <name>ДеревоВариантовОтчетаSearchStringРасширеннаяПодсказка</name>
+        <name>ДеревоВариантовОтчетаСтрокаПоискаРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -568,7 +568,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДеревоВариантовОтчетаSearchStringКонтекстноеМеню</name>
+        <name>ДеревоВариантовОтчетаСтрокаПоискаКонтекстноеМеню</name>
         <id>48</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -581,7 +581,7 @@
       <name>ДеревоВариантовОтчетаСостояниеПросмотра</name>
       <id>50</id>
       <extendedTooltip>
-        <name>ДеревоВариантовОтчетаViewStatusРасширеннаяПодсказка</name>
+        <name>ДеревоВариантовОтчетаСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -591,7 +591,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДеревоВариантовОтчетаViewStatusКонтекстноеМеню</name>
+        <name>ДеревоВариантовОтчетаСостояниеПросмотраКонтекстноеМеню</name>
         <id>51</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -615,7 +615,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДеревоВариантовОтчетаSearchControlКонтекстноеМеню</name>
+        <name>ДеревоВариантовОтчетаУправлениеПоискомКонтекстноеМеню</name>
         <id>54</id>
         <autoFill>true</autoFill>
       </contextMenu>

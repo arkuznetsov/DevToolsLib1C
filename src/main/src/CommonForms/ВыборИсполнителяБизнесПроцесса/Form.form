@@ -167,7 +167,7 @@
           <name>СписокПользователиСостояниеПросмотра</name>
           <id>68</id>
           <extendedTooltip>
-            <name>СписокПользователиViewStatusРасширеннаяПодсказка</name>
+            <name>СписокПользователиСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>70</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -177,7 +177,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СписокПользователиViewStatusКонтекстноеМеню</name>
+            <name>СписокПользователиСостояниеПросмотраКонтекстноеМеню</name>
             <id>69</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -201,7 +201,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СписокПользователиSearchControlКонтекстноеМеню</name>
+            <name>СписокПользователиУправлениеПоискомКонтекстноеМеню</name>
             <id>72</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -422,7 +422,7 @@
           <name>СписокРолиСостояниеПросмотра</name>
           <id>77</id>
           <extendedTooltip>
-            <name>СписокРолиViewStatusРасширеннаяПодсказка</name>
+            <name>СписокРолиСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>79</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>

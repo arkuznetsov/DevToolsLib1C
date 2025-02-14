@@ -191,7 +191,7 @@
       <name>ТаблицаСортировкиСтрокаПоиска</name>
       <id>23</id>
       <extendedTooltip>
-        <name>ТаблицаСортировкиSearchStringРасширеннаяПодсказка</name>
+        <name>ТаблицаСортировкиСтрокаПоискаРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -201,7 +201,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаСортировкиSearchStringКонтекстноеМеню</name>
+        <name>ТаблицаСортировкиСтрокаПоискаКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -214,7 +214,7 @@
       <name>ТаблицаСортировкиСостояниеПросмотра</name>
       <id>26</id>
       <extendedTooltip>
-        <name>ТаблицаСортировкиViewStatusРасширеннаяПодсказка</name>
+        <name>ТаблицаСортировкиСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -224,7 +224,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаСортировкиViewStatusКонтекстноеМеню</name>
+        <name>ТаблицаСортировкиСостояниеПросмотраКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -248,7 +248,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаСортировкиSearchControlКонтекстноеМеню</name>
+        <name>ТаблицаСортировкиУправлениеПоискомКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>

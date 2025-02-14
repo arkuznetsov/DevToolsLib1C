@@ -119,7 +119,7 @@
       <name>ВариантыНастроекСостояниеПросмотра</name>
       <id>23</id>
       <extendedTooltip>
-        <name>ВариантыНастроекViewStatusРасширеннаяПодсказка</name>
+        <name>ВариантыНастроекСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

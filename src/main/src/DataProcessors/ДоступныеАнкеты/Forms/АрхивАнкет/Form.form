@@ -287,7 +287,7 @@
       <name>ОтвеченныеАнкетыСостояниеПросмотра</name>
       <id>26</id>
       <extendedTooltip>
-        <name>ОтвеченныеАнкетыViewStatusРасширеннаяПодсказка</name>
+        <name>ОтвеченныеАнкетыСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -311,7 +311,7 @@
       <name>ОтвеченныеАнкетыУправлениеПоиском</name>
       <id>29</id>
       <extendedTooltip>
-        <name>ОтвеченныеАнкетыSearchControlРасширеннаяПодсказка</name>
+        <name>ОтвеченныеАнкетыУправлениеПоискомРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -321,7 +321,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтвеченныеАнкетыSearchControlКонтекстноеМеню</name>
+        <name>ОтвеченныеАнкетыУправлениеПоискомКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>

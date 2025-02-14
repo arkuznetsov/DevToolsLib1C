@@ -168,7 +168,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КомпоновщикНастроекНастройкиОтборViewStatusКонтекстноеМеню</name>
+        <name>КомпоновщикНастроекНастройкиОтборСостояниеПросмотраКонтекстноеМеню</name>
         <id>17</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -182,7 +182,7 @@
       <name>КомпоновщикНастроекНастройкиОтборУправлениеПоиском</name>
       <id>19</id>
       <extendedTooltip>
-        <name>КомпоновщикНастроекНастройкиОтборSearchControlРасширеннаяПодсказка</name>
+        <name>КомпоновщикНастроекНастройкиОтборУправлениеПоискомРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

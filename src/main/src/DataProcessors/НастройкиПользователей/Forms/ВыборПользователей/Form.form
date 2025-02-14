@@ -477,7 +477,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ГруппыПользователейSearchStringКонтекстноеМеню</name>
+          <name>ГруппыПользователейСтрокаПоискаКонтекстноеМеню</name>
           <id>78</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -490,7 +490,7 @@
         <name>ГруппыПользователейСостояниеПросмотра</name>
         <id>80</id>
         <extendedTooltip>
-          <name>ГруппыПользователейViewStatusРасширеннаяПодсказка</name>
+          <name>ГруппыПользователейСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>82</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -500,7 +500,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ГруппыПользователейViewStatusКонтекстноеМеню</name>
+          <name>ГруппыПользователейСостояниеПросмотраКонтекстноеМеню</name>
           <id>81</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -514,7 +514,7 @@
         <name>ГруппыПользователейУправлениеПоиском</name>
         <id>83</id>
         <extendedTooltip>
-          <name>ГруппыПользователейSearchControlРасширеннаяПодсказка</name>
+          <name>ГруппыПользователейУправлениеПоискомРасширеннаяПодсказка</name>
           <id>85</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -889,7 +889,7 @@
         <name>СписокПользователейСтрокаПоиска</name>
         <id>86</id>
         <extendedTooltip>
-          <name>СписокПользователейSearchStringРасширеннаяПодсказка</name>
+          <name>СписокПользователейСтрокаПоискаРасширеннаяПодсказка</name>
           <id>88</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -899,7 +899,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокПользователейSearchStringКонтекстноеМеню</name>
+          <name>СписокПользователейСтрокаПоискаКонтекстноеМеню</name>
           <id>87</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -912,7 +912,7 @@
         <name>СписокПользователейСостояниеПросмотра</name>
         <id>89</id>
         <extendedTooltip>
-          <name>СписокПользователейViewStatusРасширеннаяПодсказка</name>
+          <name>СписокПользователейСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>91</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>

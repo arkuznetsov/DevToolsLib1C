@@ -446,7 +446,7 @@
       <name>СписокСтрокаПоиска</name>
       <id>47</id>
       <extendedTooltip>
-        <name>СписокSearchStringРасширеннаяПодсказка</name>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -469,7 +469,7 @@
       <name>СписокСостояниеПросмотра</name>
       <id>50</id>
       <extendedTooltip>
-        <name>СписокViewStatusРасширеннаяПодсказка</name>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

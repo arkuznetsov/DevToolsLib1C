@@ -657,7 +657,7 @@
                 <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСтрокаПоиска</name>
                 <id>210</id>
                 <extendedTooltip>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchStringРасширеннаяПодсказка</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСтрокаПоискаРасширеннаяПодсказка</name>
                   <id>212</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -667,7 +667,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchStringКонтекстноеМеню</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСтрокаПоискаКонтекстноеМеню</name>
                   <id>211</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
@@ -680,7 +680,7 @@
                 <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСостояниеПросмотра</name>
                 <id>213</id>
                 <extendedTooltip>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахViewStatusРасширеннаяПодсказка</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСостояниеПросмотраРасширеннаяПодсказка</name>
                   <id>215</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -690,7 +690,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахViewStatusКонтекстноеМеню</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахСостояниеПросмотраКонтекстноеМеню</name>
                   <id>214</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
@@ -704,7 +704,7 @@
                 <name>ОтветыКолонкиОтветыВСтрокахИКолонкахУправлениеПоиском</name>
                 <id>216</id>
                 <extendedTooltip>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchControlРасширеннаяПодсказка</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахУправлениеПоискомРасширеннаяПодсказка</name>
                   <id>218</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -714,7 +714,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchControlКонтекстноеМеню</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахУправлениеПоискомКонтекстноеМеню</name>
                   <id>217</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
@@ -995,7 +995,7 @@
                 <name>ОтветыСтрокиОтветыВСтрокахИКолонкахУправлениеПоиском</name>
                 <id>225</id>
                 <extendedTooltip>
-                  <name>ОтветыСтрокиОтветыВСтрокахИКолонкахSearchControlРасширеннаяПодсказка</name>
+                  <name>ОтветыСтрокиОтветыВСтрокахИКолонкахУправлениеПоискомРасширеннаяПодсказка</name>
                   <id>227</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1221,7 +1221,7 @@
               <name>ВопросыСтрокаПоиска</name>
               <id>228</id>
               <extendedTooltip>
-                <name>ВопросыSearchStringРасширеннаяПодсказка</name>
+                <name>ВопросыСтрокаПоискаРасширеннаяПодсказка</name>
                 <id>230</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1244,7 +1244,7 @@
               <name>ВопросыСостояниеПросмотра</name>
               <id>231</id>
               <extendedTooltip>
-                <name>ВопросыViewStatusРасширеннаяПодсказка</name>
+                <name>ВопросыСостояниеПросмотраРасширеннаяПодсказка</name>
                 <id>233</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1543,7 +1543,7 @@
               <name>ОтветыКолонкиОтветыВКолонкахСтрокаПоиска</name>
               <id>237</id>
               <extendedTooltip>
-                <name>ОтветыКолонкиОтветыВКолонкахSearchStringРасширеннаяПодсказка</name>
+                <name>ОтветыКолонкиОтветыВКолонкахСтрокаПоискаРасширеннаяПодсказка</name>
                 <id>239</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1553,7 +1553,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ОтветыКолонкиОтветыВКолонкахSearchStringКонтекстноеМеню</name>
+                <name>ОтветыКолонкиОтветыВКолонкахСтрокаПоискаКонтекстноеМеню</name>
                 <id>238</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -1590,7 +1590,7 @@
               <name>ОтветыКолонкиОтветыВКолонкахУправлениеПоиском</name>
               <id>243</id>
               <extendedTooltip>
-                <name>ОтветыКолонкиОтветыВКолонкахSearchControlРасширеннаяПодсказка</name>
+                <name>ОтветыКолонкиОтветыВКолонкахУправлениеПоискомРасширеннаяПодсказка</name>
                 <id>245</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1600,7 +1600,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ОтветыКолонкиОтветыВКолонкахSearchControlКонтекстноеМеню</name>
+                <name>ОтветыКолонкиОтветыВКолонкахУправлениеПоискомКонтекстноеМеню</name>
                 <id>244</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -1909,7 +1909,7 @@
               <name>ОтветыСтрокиОтветыВСтрокахСтрокаПоиска</name>
               <id>246</id>
               <extendedTooltip>
-                <name>ОтветыСтрокиОтветыВСтрокахSearchStringРасширеннаяПодсказка</name>
+                <name>ОтветыСтрокиОтветыВСтрокахСтрокаПоискаРасширеннаяПодсказка</name>
                 <id>248</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2138,7 +2138,7 @@
             <name>РезультирующаяТаблицаСтрокаПоиска</name>
             <id>255</id>
             <extendedTooltip>
-              <name>РезультирующаяТаблицаSearchStringРасширеннаяПодсказка</name>
+              <name>РезультирующаяТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
               <id>257</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2148,7 +2148,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>РезультирующаяТаблицаSearchStringКонтекстноеМеню</name>
+              <name>РезультирующаяТаблицаСтрокаПоискаКонтекстноеМеню</name>
               <id>256</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -2161,7 +2161,7 @@
             <name>РезультирующаяТаблицаСостояниеПросмотра</name>
             <id>258</id>
             <extendedTooltip>
-              <name>РезультирующаяТаблицаViewStatusРасширеннаяПодсказка</name>
+              <name>РезультирующаяТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
               <id>260</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2171,7 +2171,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>РезультирующаяТаблицаViewStatusКонтекстноеМеню</name>
+              <name>РезультирующаяТаблицаСостояниеПросмотраКонтекстноеМеню</name>
               <id>259</id>
               <autoFill>true</autoFill>
             </contextMenu>

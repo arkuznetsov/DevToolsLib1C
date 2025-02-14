@@ -129,7 +129,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>РасписаниеРаботыSearchStringКонтекстноеМеню</name>
+        <name>РасписаниеРаботыСтрокаПоискаКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>

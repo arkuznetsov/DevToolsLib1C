@@ -250,7 +250,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОрганизацииSearchStringКонтекстноеМеню</name>
+        <name>ОрганизацииСтрокаПоискаКонтекстноеМеню</name>
         <id>64</id>
         <autoFill>true</autoFill>
       </contextMenu>

@@ -980,7 +980,7 @@
           <name>ДеревоПодсистемСтрокаПоиска</name>
           <id>206</id>
           <extendedTooltip>
-            <name>ДеревоПодсистемSearchStringРасширеннаяПодсказка</name>
+            <name>ДеревоПодсистемСтрокаПоискаРасширеннаяПодсказка</name>
             <id>208</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1533,7 +1533,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РазмещениеSearchControlКонтекстноеМеню</name>
+          <name>РазмещениеУправлениеПоискомКонтекстноеМеню</name>
           <id>222</id>
           <autoFill>true</autoFill>
         </contextMenu>

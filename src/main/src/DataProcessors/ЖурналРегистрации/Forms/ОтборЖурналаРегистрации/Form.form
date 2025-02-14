@@ -653,7 +653,7 @@
           <name>ВажностьСостояниеПросмотра</name>
           <id>270</id>
           <extendedTooltip>
-            <name>ВажностьViewStatusРасширеннаяПодсказка</name>
+            <name>ВажностьСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>272</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -663,7 +663,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ВажностьViewStatusКонтекстноеМеню</name>
+            <name>ВажностьСостояниеПросмотраКонтекстноеМеню</name>
             <id>271</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -677,7 +677,7 @@
           <name>ВажностьУправлениеПоиском</name>
           <id>273</id>
           <extendedTooltip>
-            <name>ВажностьSearchControlРасширеннаяПодсказка</name>
+            <name>ВажностьУправлениеПоискомРасширеннаяПодсказка</name>
             <id>275</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1785,7 +1785,7 @@
           <name>СтатусТранзакцииСтрокаПоиска</name>
           <id>276</id>
           <extendedTooltip>
-            <name>СтатусТранзакцииSearchStringРасширеннаяПодсказка</name>
+            <name>СтатусТранзакцииСтрокаПоискаРасширеннаяПодсказка</name>
             <id>278</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1795,7 +1795,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СтатусТранзакцииSearchStringКонтекстноеМеню</name>
+            <name>СтатусТранзакцииСтрокаПоискаКонтекстноеМеню</name>
             <id>277</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1818,7 +1818,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СтатусТранзакцииViewStatusКонтекстноеМеню</name>
+            <name>СтатусТранзакцииСостояниеПросмотраКонтекстноеМеню</name>
             <id>280</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1842,7 +1842,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СтатусТранзакцииSearchControlКонтекстноеМеню</name>
+            <name>СтатусТранзакцииУправлениеПоискомКонтекстноеМеню</name>
             <id>283</id>
             <autoFill>true</autoFill>
           </contextMenu>

@@ -137,7 +137,7 @@
         <name>ВопросыСтрокаПоиска</name>
         <id>228</id>
         <extendedTooltip>
-          <name>ВопросыSearchStringРасширеннаяПодсказка</name>
+          <name>ВопросыСтрокаПоискаРасширеннаяПодсказка</name>
           <id>230</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -147,7 +147,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВопросыSearchStringКонтекстноеМеню</name>
+          <name>ВопросыСтрокаПоискаКонтекстноеМеню</name>
           <id>229</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -194,7 +194,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВопросыSearchControlКонтекстноеМеню</name>
+          <name>ВопросыУправлениеПоискомКонтекстноеМеню</name>
           <id>235</id>
           <autoFill>true</autoFill>
         </contextMenu>

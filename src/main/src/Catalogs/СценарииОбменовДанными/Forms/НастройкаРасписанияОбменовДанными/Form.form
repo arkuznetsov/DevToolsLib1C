@@ -229,7 +229,7 @@
       <name>СписокСтрокаПоиска</name>
       <id>57</id>
       <extendedTooltip>
-        <name>СписокSearchStringРасширеннаяПодсказка</name>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>59</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -252,7 +252,7 @@
       <name>СписокСостояниеПросмотра</name>
       <id>60</id>
       <extendedTooltip>
-        <name>СписокViewStatusРасширеннаяПодсказка</name>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>62</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

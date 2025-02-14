@@ -1133,7 +1133,7 @@
       <name>СписокСтрокаПоиска</name>
       <id>99</id>
       <extendedTooltip>
-        <name>СписокSearchStringРасширеннаяПодсказка</name>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>101</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1143,7 +1143,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокSearchStringКонтекстноеМеню</name>
+        <name>СписокСтрокаПоискаКонтекстноеМеню</name>
         <id>100</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -1156,7 +1156,7 @@
       <name>СписокСостояниеПросмотра</name>
       <id>102</id>
       <extendedTooltip>
-        <name>СписокViewStatusРасширеннаяПодсказка</name>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>104</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1166,7 +1166,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокViewStatusКонтекстноеМеню</name>
+        <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
         <id>103</id>
         <autoFill>true</autoFill>
       </contextMenu>

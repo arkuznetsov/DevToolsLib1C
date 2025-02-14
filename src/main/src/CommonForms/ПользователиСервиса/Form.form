@@ -315,7 +315,7 @@
       <name>ПользователиСервисаСтрокаПоиска</name>
       <id>34</id>
       <extendedTooltip>
-        <name>ПользователиСервисаSearchStringРасширеннаяПодсказка</name>
+        <name>ПользователиСервисаСтрокаПоискаРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -338,7 +338,7 @@
       <name>ПользователиСервисаСостояниеПросмотра</name>
       <id>37</id>
       <extendedTooltip>
-        <name>ПользователиСервисаViewStatusРасширеннаяПодсказка</name>
+        <name>ПользователиСервисаСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>39</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -348,7 +348,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПользователиСервисаViewStatusКонтекстноеМеню</name>
+        <name>ПользователиСервисаСостояниеПросмотраКонтекстноеМеню</name>
         <id>38</id>
         <autoFill>true</autoFill>
       </contextMenu>

@@ -959,7 +959,7 @@
           <name>РолиУправлениеПоиском</name>
           <id>153</id>
           <extendedTooltip>
-            <name>РолиSearchControlРасширеннаяПодсказка</name>
+            <name>РолиУправлениеПоискомРасширеннаяПодсказка</name>
             <id>155</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -969,7 +969,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>РолиSearchControlКонтекстноеМеню</name>
+            <name>РолиУправлениеПоискомКонтекстноеМеню</name>
             <id>154</id>
             <autoFill>true</autoFill>
           </contextMenu>

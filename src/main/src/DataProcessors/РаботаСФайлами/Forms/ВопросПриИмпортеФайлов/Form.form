@@ -140,7 +140,7 @@
       <name>ФайлыБольшиеСостояниеПросмотра</name>
       <id>31</id>
       <extendedTooltip>
-        <name>ФайлыБольшиеViewStatusРасширеннаяПодсказка</name>
+        <name>ФайлыБольшиеСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -164,7 +164,7 @@
       <name>ФайлыБольшиеУправлениеПоиском</name>
       <id>34</id>
       <extendedTooltip>
-        <name>ФайлыБольшиеSearchControlРасширеннаяПодсказка</name>
+        <name>ФайлыБольшиеУправлениеПоискомРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

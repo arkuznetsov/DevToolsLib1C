@@ -586,7 +586,7 @@
       <name>КлассификаторСостояниеПросмотра</name>
       <id>72</id>
       <extendedTooltip>
-        <name>КлассификаторViewStatusРасширеннаяПодсказка</name>
+        <name>КлассификаторСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>74</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -620,7 +620,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КлассификаторSearchControlКонтекстноеМеню</name>
+        <name>КлассификаторУправлениеПоискомКонтекстноеМеню</name>
         <id>76</id>
         <autoFill>true</autoFill>
       </contextMenu>

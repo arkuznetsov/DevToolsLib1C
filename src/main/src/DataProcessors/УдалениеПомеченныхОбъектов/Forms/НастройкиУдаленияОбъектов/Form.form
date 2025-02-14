@@ -145,7 +145,7 @@
       <name>НастройкиОтображенияОбъектовСтрокаПоиска</name>
       <id>23</id>
       <extendedTooltip>
-        <name>AdditionРасширеннаяПодсказка</name>
+        <name>НастройкиОтображенияОбъектовСтрокаПоискаРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -155,7 +155,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>AdditionКонтекстноеМеню</name>
+        <name>НастройкиОтображенияОбъектовСтрокаПоискаКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -168,7 +168,7 @@
       <name>НастройкиОтображенияОбъектовСостояниеПросмотра</name>
       <id>29</id>
       <extendedTooltip>
-        <name>AdditionРасширеннаяПодсказка</name>
+        <name>НастройкиОтображенияОбъектовСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -178,7 +178,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>AdditionКонтекстноеМеню</name>
+        <name>НастройкиОтображенияОбъектовСостояниеПросмотраКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -192,7 +192,7 @@
       <name>НастройкиОтображенияОбъектовУправлениеПоиском</name>
       <id>26</id>
       <extendedTooltip>
-        <name>AdditionРасширеннаяПодсказка</name>
+        <name>НастройкиОтображенияОбъектовУправлениеПоискомРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -202,7 +202,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>AdditionКонтекстноеМеню</name>
+        <name>НастройкиОтображенияОбъектовУправлениеПоискомКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>

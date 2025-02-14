@@ -240,7 +240,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПапкиSearchStringКонтекстноеМеню</name>
+          <name>ПапкиСтрокаПоискаКонтекстноеМеню</name>
           <id>66</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -277,7 +277,7 @@
         <name>ПапкиУправлениеПоиском</name>
         <id>71</id>
         <extendedTooltip>
-          <name>ПапкиSearchControlРасширеннаяПодсказка</name>
+          <name>ПапкиУправлениеПоискомРасширеннаяПодсказка</name>
           <id>73</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -287,7 +287,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПапкиSearchControlКонтекстноеМеню</name>
+          <name>ПапкиУправлениеПоискомКонтекстноеМеню</name>
           <id>72</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -676,7 +676,7 @@
         <name>СписокСтрокаПоиска</name>
         <id>74</id>
         <extendedTooltip>
-          <name>СписокSearchStringРасширеннаяПодсказка</name>
+          <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
           <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -686,7 +686,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокSearchStringКонтекстноеМеню</name>
+          <name>СписокСтрокаПоискаКонтекстноеМеню</name>
           <id>75</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -699,7 +699,7 @@
         <name>СписокСостояниеПросмотра</name>
         <id>77</id>
         <extendedTooltip>
-          <name>СписокViewStatusРасширеннаяПодсказка</name>
+          <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>79</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -709,7 +709,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокViewStatusКонтекстноеМеню</name>
+          <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
           <id>78</id>
           <autoFill>true</autoFill>
         </contextMenu>

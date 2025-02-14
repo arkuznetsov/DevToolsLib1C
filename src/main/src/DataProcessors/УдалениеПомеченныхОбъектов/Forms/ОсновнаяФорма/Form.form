@@ -2681,7 +2681,7 @@
                   <name>МестаИспользованияНеудаленныхСтрокаПоиска</name>
                   <id>427</id>
                   <extendedTooltip>
-                    <name>СвязиНеУдаленныхСтрокаПоискаРасширеннаяПодсказка</name>
+                    <name>МестаИспользованияНеудаленныхСтрокаПоискаРасширеннаяПодсказка</name>
                     <id>429</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2691,7 +2691,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвязиНеУдаленныхСтрокаПоискаКонтекстноеМеню</name>
+                    <name>МестаИспользованияНеудаленныхСтрокаПоискаКонтекстноеМеню</name>
                     <id>428</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
@@ -2704,7 +2704,7 @@
                   <name>МестаИспользованияНеудаленныхСостояниеПросмотра</name>
                   <id>430</id>
                   <extendedTooltip>
-                    <name>СвязиНеУдаленныхСостояниеПросмотраРасширеннаяПодсказка</name>
+                    <name>МестаИспользованияНеудаленныхСостояниеПросмотраРасширеннаяПодсказка</name>
                     <id>432</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2714,7 +2714,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвязиНеУдаленныхСостояниеПросмотраКонтекстноеМеню</name>
+                    <name>МестаИспользованияНеудаленныхСостояниеПросмотраКонтекстноеМеню</name>
                     <id>431</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
@@ -2728,7 +2728,7 @@
                   <name>МестаИспользованияНеудаленныхУправлениеПоиском</name>
                   <id>433</id>
                   <extendedTooltip>
-                    <name>СвязиНеУдаленныхУправлениеПоискомРасширеннаяПодсказка</name>
+                    <name>МестаИспользованияНеудаленныхУправлениеПоискомРасширеннаяПодсказка</name>
                     <id>435</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2738,7 +2738,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвязиНеУдаленныхУправлениеПоискомКонтекстноеМеню</name>
+                    <name>МестаИспользованияНеудаленныхУправлениеПоискомКонтекстноеМеню</name>
                     <id>434</id>
                     <autoFill>true</autoFill>
                   </contextMenu>

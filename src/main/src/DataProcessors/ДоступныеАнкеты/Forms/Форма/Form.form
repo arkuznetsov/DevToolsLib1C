@@ -159,7 +159,7 @@
           <name>ТаблицаАнкетСтрокаПоиска</name>
           <id>30</id>
           <extendedTooltip>
-            <name>ТаблицаАнкетSearchStringРасширеннаяПодсказка</name>
+            <name>ТаблицаАнкетСтрокаПоискаРасширеннаяПодсказка</name>
             <id>32</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -169,7 +169,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТаблицаАнкетSearchStringКонтекстноеМеню</name>
+            <name>ТаблицаАнкетСтрокаПоискаКонтекстноеМеню</name>
             <id>31</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -182,7 +182,7 @@
           <name>ТаблицаАнкетСостояниеПросмотра</name>
           <id>33</id>
           <extendedTooltip>
-            <name>ТаблицаАнкетViewStatusРасширеннаяПодсказка</name>
+            <name>ТаблицаАнкетСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>35</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -216,7 +216,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТаблицаАнкетSearchControlКонтекстноеМеню</name>
+            <name>ТаблицаАнкетУправлениеПоискомКонтекстноеМеню</name>
             <id>37</id>
             <autoFill>true</autoFill>
           </contextMenu>

@@ -121,7 +121,7 @@
         <name>ВыбранныеФорматыСтрокаПоиска</name>
         <id>50</id>
         <extendedTooltip>
-          <name>ВыбранныеФорматыSearchStringРасширеннаяПодсказка</name>
+          <name>ВыбранныеФорматыСтрокаПоискаРасширеннаяПодсказка</name>
           <id>52</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -144,7 +144,7 @@
         <name>ВыбранныеФорматыСостояниеПросмотра</name>
         <id>53</id>
         <extendedTooltip>
-          <name>ВыбранныеФорматыViewStatusРасширеннаяПодсказка</name>
+          <name>ВыбранныеФорматыСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -154,7 +154,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВыбранныеФорматыViewStatusКонтекстноеМеню</name>
+          <name>ВыбранныеФорматыСостояниеПросмотраКонтекстноеМеню</name>
           <id>54</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -168,7 +168,7 @@
         <name>ВыбранныеФорматыУправлениеПоиском</name>
         <id>56</id>
         <extendedTooltip>
-          <name>ВыбранныеФорматыSearchControlРасширеннаяПодсказка</name>
+          <name>ВыбранныеФорматыУправлениеПоискомРасширеннаяПодсказка</name>
           <id>58</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -178,7 +178,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВыбранныеФорматыSearchControlКонтекстноеМеню</name>
+          <name>ВыбранныеФорматыУправлениеПоискомКонтекстноеМеню</name>
           <id>57</id>
           <autoFill>true</autoFill>
         </contextMenu>

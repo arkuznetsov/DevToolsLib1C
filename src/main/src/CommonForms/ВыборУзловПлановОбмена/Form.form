@@ -157,7 +157,7 @@
       <name>УзлыПлановОбменаСостояниеПросмотра</name>
       <id>36</id>
       <extendedTooltip>
-        <name>УзлыПлановОбменаViewStatusРасширеннаяПодсказка</name>
+        <name>УзлыПлановОбменаСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>38</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -181,7 +181,7 @@
       <name>УзлыПлановОбменаУправлениеПоиском</name>
       <id>39</id>
       <extendedTooltip>
-        <name>УзлыПлановОбменаSearchControlРасширеннаяПодсказка</name>
+        <name>УзлыПлановОбменаУправлениеПоискомРасширеннаяПодсказка</name>
         <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

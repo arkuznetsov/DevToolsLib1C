@@ -270,7 +270,7 @@
       <name>СписокСтрокаПоиска</name>
       <id>28</id>
       <extendedTooltip>
-        <name>СписокSearchStringРасширеннаяПодсказка</name>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -317,7 +317,7 @@
       <name>СписокУправлениеПоиском</name>
       <id>34</id>
       <extendedTooltip>
-        <name>СписокSearchControlРасширеннаяПодсказка</name>
+        <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -327,7 +327,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокSearchControlКонтекстноеМеню</name>
+        <name>СписокУправлениеПоискомКонтекстноеМеню</name>
         <id>35</id>
         <autoFill>true</autoFill>
       </contextMenu>

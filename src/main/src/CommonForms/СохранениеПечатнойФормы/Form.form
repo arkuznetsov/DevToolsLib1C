@@ -279,7 +279,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВыбранныеФорматыСохраненияSearchStringКонтекстноеМеню</name>
+          <name>ВыбранныеФорматыСохраненияСтрокаПоискаКонтекстноеМеню</name>
           <id>96</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -326,7 +326,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ВыбранныеФорматыСохраненияSearchControlКонтекстноеМеню</name>
+          <name>ВыбранныеФорматыСохраненияУправлениеПоискомКонтекстноеМеню</name>
           <id>102</id>
           <autoFill>true</autoFill>
         </contextMenu>

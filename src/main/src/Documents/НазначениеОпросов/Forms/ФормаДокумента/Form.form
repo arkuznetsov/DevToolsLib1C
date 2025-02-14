@@ -1105,7 +1105,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>РеспондентыViewStatusКонтекстноеМеню</name>
+            <name>РеспондентыСостояниеПросмотраКонтекстноеМеню</name>
             <id>99</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1119,7 +1119,7 @@
           <name>РеспондентыУправлениеПоиском</name>
           <id>101</id>
           <extendedTooltip>
-            <name>РеспондентыSearchControlРасширеннаяПодсказка</name>
+            <name>РеспондентыУправлениеПоискомРасширеннаяПодсказка</name>
             <id>103</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1129,7 +1129,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>РеспондентыSearchControlКонтекстноеМеню</name>
+            <name>РеспондентыУправлениеПоискомКонтекстноеМеню</name>
             <id>102</id>
             <autoFill>true</autoFill>
           </contextMenu>

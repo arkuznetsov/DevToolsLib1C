@@ -914,7 +914,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТоварыSearchStringКонтекстноеМеню</name>
+            <name>ТоварыСтрокаПоискаКонтекстноеМеню</name>
             <id>317</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -937,7 +937,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТоварыViewStatusКонтекстноеМеню</name>
+            <name>ТоварыСостояниеПросмотраКонтекстноеМеню</name>
             <id>320</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1250,7 +1250,7 @@
           <name>СчетаНаОплатуСтрокаПоиска</name>
           <id>325</id>
           <extendedTooltip>
-            <name>СчетаНаОплатуSearchStringРасширеннаяПодсказка</name>
+            <name>СчетаНаОплатуСтрокаПоискаРасширеннаяПодсказка</name>
             <id>327</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1273,7 +1273,7 @@
           <name>СчетаНаОплатуСостояниеПросмотра</name>
           <id>328</id>
           <extendedTooltip>
-            <name>СчетаНаОплатуViewStatusРасширеннаяПодсказка</name>
+            <name>СчетаНаОплатуСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>330</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1283,7 +1283,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СчетаНаОплатуViewStatusКонтекстноеМеню</name>
+            <name>СчетаНаОплатуСостояниеПросмотраКонтекстноеМеню</name>
             <id>329</id>
             <autoFill>true</autoFill>
           </contextMenu>

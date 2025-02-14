@@ -146,7 +146,7 @@
       <name>ДополнительныеРеквизитыСтрокаПоиска</name>
       <id>104</id>
       <extendedTooltip>
-        <name>ДополнительныеРеквизитыSearchStringРасширеннаяПодсказка</name>
+        <name>ДополнительныеРеквизитыСтрокаПоискаРасширеннаяПодсказка</name>
         <id>106</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -156,7 +156,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДополнительныеРеквизитыSearchStringКонтекстноеМеню</name>
+        <name>ДополнительныеРеквизитыСтрокаПоискаКонтекстноеМеню</name>
         <id>105</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -203,7 +203,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДополнительныеРеквизитыSearchControlКонтекстноеМеню</name>
+        <name>ДополнительныеРеквизитыУправлениеПоискомКонтекстноеМеню</name>
         <id>111</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -365,7 +365,7 @@
       <name>ДополнительныеСведенияУправлениеПоиском</name>
       <id>119</id>
       <extendedTooltip>
-        <name>ДополнительныеСведенияSearchControlРасширеннаяПодсказка</name>
+        <name>ДополнительныеСведенияУправлениеПоискомРасширеннаяПодсказка</name>
         <id>121</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -375,7 +375,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДополнительныеСведенияSearchControlКонтекстноеМеню</name>
+        <name>ДополнительныеСведенияУправлениеПоискомКонтекстноеМеню</name>
         <id>120</id>
         <autoFill>true</autoFill>
       </contextMenu>

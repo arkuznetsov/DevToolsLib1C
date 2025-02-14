@@ -96,7 +96,7 @@
       <name>СписокКодировокСостояниеПросмотра</name>
       <id>17</id>
       <extendedTooltip>
-        <name>СписокКодировокViewStatusРасширеннаяПодсказка</name>
+        <name>СписокКодировокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -106,7 +106,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКодировокViewStatusКонтекстноеМеню</name>
+        <name>СписокКодировокСостояниеПросмотраКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -120,7 +120,7 @@
       <name>СписокКодировокУправлениеПоиском</name>
       <id>20</id>
       <extendedTooltip>
-        <name>СписокКодировокSearchControlРасширеннаяПодсказка</name>
+        <name>СписокКодировокУправлениеПоискомРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -130,7 +130,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКодировокSearchControlКонтекстноеМеню</name>
+        <name>СписокКодировокУправлениеПоискомКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>

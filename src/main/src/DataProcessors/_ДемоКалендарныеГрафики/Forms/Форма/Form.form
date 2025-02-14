@@ -517,7 +517,7 @@
             <name>ТаблицаДатПоКалендарюСостояниеПросмотра</name>
             <id>99</id>
             <extendedTooltip>
-              <name>ТаблицаДатПоКалендарюViewStatusРасширеннаяПодсказка</name>
+              <name>ТаблицаДатПоКалендарюСостояниеПросмотраРасширеннаяПодсказка</name>
               <id>101</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -527,7 +527,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТаблицаДатПоКалендарюViewStatusКонтекстноеМеню</name>
+              <name>ТаблицаДатПоКалендарюСостояниеПросмотраКонтекстноеМеню</name>
               <id>100</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -541,7 +541,7 @@
             <name>ТаблицаДатПоКалендарюУправлениеПоиском</name>
             <id>102</id>
             <extendedTooltip>
-              <name>ТаблицаДатПоКалендарюSearchControlРасширеннаяПодсказка</name>
+              <name>ТаблицаДатПоКалендарюУправлениеПоискомРасширеннаяПодсказка</name>
               <id>104</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1181,7 +1181,7 @@
             <name>ДатыРабочихДнейСтрокаПоиска</name>
             <id>105</id>
             <extendedTooltip>
-              <name>ДатыРабочихДнейSearchStringРасширеннаяПодсказка</name>
+              <name>ДатыРабочихДнейСтрокаПоискаРасширеннаяПодсказка</name>
               <id>107</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1191,7 +1191,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ДатыРабочихДнейSearchStringКонтекстноеМеню</name>
+              <name>ДатыРабочихДнейСтрокаПоискаКонтекстноеМеню</name>
               <id>106</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -1204,7 +1204,7 @@
             <name>ДатыРабочихДнейСостояниеПросмотра</name>
             <id>108</id>
             <extendedTooltip>
-              <name>ДатыРабочихДнейViewStatusРасширеннаяПодсказка</name>
+              <name>ДатыРабочихДнейСостояниеПросмотраРасширеннаяПодсказка</name>
               <id>110</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1228,7 +1228,7 @@
             <name>ДатыРабочихДнейУправлениеПоиском</name>
             <id>111</id>
             <extendedTooltip>
-              <name>ДатыРабочихДнейSearchControlРасширеннаяПодсказка</name>
+              <name>ДатыРабочихДнейУправлениеПоискомРасширеннаяПодсказка</name>
               <id>113</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>

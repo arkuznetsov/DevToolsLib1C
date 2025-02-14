@@ -80,7 +80,7 @@
       <name>ОбластиПоискаДублейСтрокаПоиска</name>
       <id>19</id>
       <extendedTooltip>
-        <name>ОбластиПоискаДублейSearchStringРасширеннаяПодсказка</name>
+        <name>ОбластиПоискаДублейСтрокаПоискаРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -113,7 +113,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОбластиПоискаДублейViewStatusКонтекстноеМеню</name>
+        <name>ОбластиПоискаДублейСостояниеПросмотраКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>

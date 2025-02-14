@@ -379,7 +379,7 @@
       <name>СписокВалютСтрокаПоиска</name>
       <id>34</id>
       <extendedTooltip>
-        <name>СписокВалютSearchStringРасширеннаяПодсказка</name>
+        <name>СписокВалютСтрокаПоискаРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -389,7 +389,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокВалютSearchStringКонтекстноеМеню</name>
+        <name>СписокВалютСтрокаПоискаКонтекстноеМеню</name>
         <id>35</id>
         <autoFill>true</autoFill>
       </contextMenu>

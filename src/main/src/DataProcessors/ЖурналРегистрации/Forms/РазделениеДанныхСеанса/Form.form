@@ -193,7 +193,7 @@
       <name>РазделениеДанныхСеансаСтрокаПоиска</name>
       <id>29</id>
       <extendedTooltip>
-        <name>РазделениеДанныхСеансаSearchStringРасширеннаяПодсказка</name>
+        <name>РазделениеДанныхСеансаСтрокаПоискаРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -203,7 +203,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>РазделениеДанныхСеансаSearchStringКонтекстноеМеню</name>
+        <name>РазделениеДанныхСеансаСтрокаПоискаКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -216,7 +216,7 @@
       <name>РазделениеДанныхСеансаСостояниеПросмотра</name>
       <id>32</id>
       <extendedTooltip>
-        <name>РазделениеДанныхСеансаViewStatusРасширеннаяПодсказка</name>
+        <name>РазделениеДанныхСеансаСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -240,7 +240,7 @@
       <name>РазделениеДанныхСеансаУправлениеПоиском</name>
       <id>35</id>
       <extendedTooltip>
-        <name>РазделениеДанныхСеансаSearchControlРасширеннаяПодсказка</name>
+        <name>РазделениеДанныхСеансаУправлениеПоискомРасширеннаяПодсказка</name>
         <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

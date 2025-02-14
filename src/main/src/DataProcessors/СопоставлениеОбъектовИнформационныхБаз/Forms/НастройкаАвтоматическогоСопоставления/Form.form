@@ -186,7 +186,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокПолейСопоставленияSearchStringКонтекстноеМеню</name>
+        <name>СписокПолейСопоставленияСтрокаПоискаКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -199,7 +199,7 @@
       <name>СписокПолейСопоставленияСостояниеПросмотра</name>
       <id>26</id>
       <extendedTooltip>
-        <name>СписокПолейСопоставленияViewStatusРасширеннаяПодсказка</name>
+        <name>СписокПолейСопоставленияСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -209,7 +209,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокПолейСопоставленияViewStatusКонтекстноеМеню</name>
+        <name>СписокПолейСопоставленияСостояниеПросмотраКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -233,7 +233,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокПолейСопоставленияSearchControlКонтекстноеМеню</name>
+        <name>СписокПолейСопоставленияУправлениеПоискомКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>

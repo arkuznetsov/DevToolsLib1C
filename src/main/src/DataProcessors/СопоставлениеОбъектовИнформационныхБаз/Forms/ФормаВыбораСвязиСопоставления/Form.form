@@ -411,7 +411,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаВыбораSearchStringКонтекстноеМеню</name>
+        <name>ТаблицаВыбораСтрокаПоискаКонтекстноеМеню</name>
         <id>61</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -448,7 +448,7 @@
       <name>ТаблицаВыбораУправлениеПоиском</name>
       <id>66</id>
       <extendedTooltip>
-        <name>ТаблицаВыбораSearchControlРасширеннаяПодсказка</name>
+        <name>ТаблицаВыбораУправлениеПоискомРасширеннаяПодсказка</name>
         <id>68</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -458,7 +458,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаВыбораSearchControlКонтекстноеМеню</name>
+        <name>ТаблицаВыбораУправлениеПоискомКонтекстноеМеню</name>
         <id>67</id>
         <autoFill>true</autoFill>
       </contextMenu>

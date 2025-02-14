@@ -181,7 +181,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>РазделыViewStatusКонтекстноеМеню</name>
+        <name>РазделыСостояниеПросмотраКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -195,7 +195,7 @@
       <name>РазделыУправлениеПоиском</name>
       <id>25</id>
       <extendedTooltip>
-        <name>РазделыSearchControlРасширеннаяПодсказка</name>
+        <name>РазделыУправлениеПоискомРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

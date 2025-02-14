@@ -238,7 +238,7 @@
           <name>СписокВыбираемыхЗначенийСтрокаПоиска</name>
           <id>44</id>
           <extendedTooltip>
-            <name>СписокВыбираемыхЗначенийSearchStringРасширеннаяПодсказка</name>
+            <name>СписокВыбираемыхЗначенийСтрокаПоискаРасширеннаяПодсказка</name>
             <id>46</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>

@@ -322,7 +322,7 @@
       <name>СписокКолонокСостояниеПросмотра</name>
       <id>22</id>
       <extendedTooltip>
-        <name>СписокКолонокViewStatusРасширеннаяПодсказка</name>
+        <name>СписокКолонокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -346,7 +346,7 @@
       <name>СписокКолонокУправлениеПоиском</name>
       <id>25</id>
       <extendedTooltip>
-        <name>СписокКолонокSearchControlРасширеннаяПодсказка</name>
+        <name>СписокКолонокУправлениеПоискомРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
