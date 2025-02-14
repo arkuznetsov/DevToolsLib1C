@@ -8,7 +8,7 @@ out/
 src/**/ConfigDumpInfo.xml
 src/**/SYNC_COMMIT
 src/**/Configuration/ParentConfigurations/*.cf
-src/**/Configuration/ParentConfiguration.bin
+src/**/.settings/
 tools/scripts/upd_ib_*.cmd
 tools/scripts/ext_ib2src_*.cmd
 tools/scripts/ext_src2ib_*.cmd
