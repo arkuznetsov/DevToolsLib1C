@@ -14,8 +14,8 @@
   <content>CommonModule.бир_ОбработкиОбслуживанияВызовСервера</content>
   <content>CommonModule.бир_ОбработкиОбслуживания</content>
   <content>CommonModule.бир_СобытияКлиент</content>
-  <content>Role.бир_СобытияИспользование</content>
-  <content>Role.бир_СобытияНастройка</content>
+  <content>Role.бир_ЧтениеНастроекСобытий</content>
+  <content>Role.бир_ДобавлениеИзменениеНастроекСобытий</content>
   <content>EventSubscription.бир_СобытияБизнессПроцессыЗадачиОбработкаИнтерактивнойАктивации</content>
   <content>EventSubscription.бир_СобытияВсеНаборыЗаписейКромеРегистраРасчетовПередЗаписью</content>
   <content>EventSubscription.бир_СобытияВсеНаборыЗаписейКромеРегистраРасчетовПриЗаписи</content>

@@ -10,7 +10,7 @@
   <name>бир_ИнформационныеБазы</name>
   <synonym>
     <key>ru</key>
-    <value>Информационные базы (СПК)</value>
+    <value>Информационные базы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ExchangePlan.бир_ИнформационныеБазы.StandardAttribute.Description</inputByString>

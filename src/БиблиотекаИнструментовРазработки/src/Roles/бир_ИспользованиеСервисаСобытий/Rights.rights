@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.бир_СобытияОбработчики</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.бир_ВнешниеСобытия.URLTemplate.ВозможныеСобытия.Method.Get</name>
 		<right>
 			<name>Use</name>
@@ -11,9 +18,188 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.бир_События</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.Attribute.Ид</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.Attribute.Комментарий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.бир_ВнешниеСобытия.URLTemplate.ЭтаТочкаВозникновенияСобытий.Method.Get</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.Attribute.СервисСобытий_Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_СобытияТочкиВозникновения.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бир_СобытияОбработка</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бир_События</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бир_СобытияОбработкаНаКлиенте</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -75,6 +261,13 @@
 		<name>HTTPService.бир_ВнешниеСобытия.URLTemplate.ЗарегистрироватьСобытие.Method.Post</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бир_СобытияНазначенныеОбработчики</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

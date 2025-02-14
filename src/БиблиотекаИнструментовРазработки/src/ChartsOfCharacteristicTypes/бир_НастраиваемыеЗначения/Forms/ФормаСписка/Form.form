@@ -327,7 +327,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения</mainTable>
+      <mainTable>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

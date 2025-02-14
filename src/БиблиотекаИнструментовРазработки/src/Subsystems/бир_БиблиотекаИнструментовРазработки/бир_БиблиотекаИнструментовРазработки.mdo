@@ -10,7 +10,7 @@
   <content>InformationRegister.бир_СобытияОбработка</content>
   <content>InformationRegister.бир_СобытияНазначенныеОбработчики</content>
   <content>InformationRegister.бир_События</content>
-  <content>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения</content>
+  <content>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения</content>
   <content>DataProcessor.бир_ВнешниеИБКонсоль</content>
   <content>DataProcessor.бир_ПреобразованиеДанных</content>
   <content>DataProcessor.бир_ПроцессорЗапросов</content>
@@ -20,7 +20,6 @@
   <content>DataProcessor.бир_СобытияПроверка_ИзменениеОбъекта</content>
   <content>DataProcessor.бир_СобытияПроверка_ПроизвольныеИзменения</content>
   <content>DataProcessor.бир_СобытияПроверка_УниверсальнаяПроверка</content>
-  <content>d684cff6-afb6-47e9-bcfc-41c06e599c67</content>
   <content>DataProcessor.бир_СохранениеВосстановлениеДанных</content>
   <content>Catalog.бир_АдресаСервисов</content>
   <content>Catalog.бир_ЗапросыКДанным</content>
@@ -48,13 +47,13 @@
   <content>CommonModule.бир_ВнешниеСобытияОбработкаЗапросов</content>
   <content>CommonModule.бир_ВнешниеИБОбработкаЗапросов</content>
   <content>SessionParameter.бир_ТекущееРасположениеИБ</content>
-  <content>Role.бир_ОсновнаяРоль</content>
+  <content>Role.бир_ПолныеПрава</content>
   <content>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</content>
   <content>Role.бир_ИспользованиеСервисаПолученияДанных</content>
   <content>Role.бир_ИспользованиеСервисаСобытий</content>
-  <content>Role.бир_СобытияНастройка</content>
+  <content>Role.бир_ДобавлениеИзменениеНастроекСобытий</content>
   <content>Role.бир_СохранениеВосстановлениеДанных</content>
-  <content>Role.бир_СобытияИспользование</content>
+  <content>Role.бир_ЧтениеНастроекСобытий</content>
   <content>Role.бир_ЧтениеНастроекРасположенияИБ</content>
   <content>ExchangePlan.бир_ИнформационныеБазы</content>
   <content>EventSubscription.бир_СобытияБизнессПроцессыЗадачиОбработкаИнтерактивнойАктивации</content>
@@ -79,7 +78,6 @@
   <content>ScheduledJob.бир_СобытияУдалениеОбработанных</content>
   <content>DefinedType.бир_СохраняемыеДанные</content>
   <content>CommandGroup.бир_СохранениеВосстановлениеДанных</content>
-  <content>CommonTemplate.бир_ВерсияСистемы</content>
   <content>CommonPicture.бир_РасположениеБазы16</content>
   <content>CommonPicture.бир_РасположениеБазы24</content>
   <content>CommonPicture.бир_РасположениеБазы32</content>
@@ -98,4 +96,5 @@
   <content>Style.бир_ТемноСерый</content>
   <content>Style.бир_Фуксия</content>
   <content>Style.бир_Хаки</content>
+  <content>DataProcessor.бир_ПраваНаОбъект</content>
 </mdclass:Subsystem>

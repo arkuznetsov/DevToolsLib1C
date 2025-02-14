@@ -29,7 +29,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.бир_ОсновнаяРоль</defaultRoles>
+  <defaultRoles>Role.бир_ПолныеПрава</defaultRoles>
+  <defaultRoles>Role.бир_БазовыеПрава</defaultRoles>
   <vendor>ktb</vendor>
   <version>1.0.2.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -62,15 +63,15 @@
   <commonPictures>CommonPicture.бир_РасположениеБазы48</commonPictures>
   <commonPictures>CommonPicture.бир_РасположениеБазы64</commonPictures>
   <sessionParameters>SessionParameter.бир_ТекущееРасположениеИБ</sessionParameters>
+  <roles>Role.бир_БазовыеПрава</roles>
   <roles>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</roles>
+  <roles>Role.бир_ДобавлениеИзменениеНастроекСобытий</roles>
   <roles>Role.бир_ИспользованиеСервисаПолученияДанных</roles>
   <roles>Role.бир_ИспользованиеСервисаСобытий</roles>
-  <roles>Role.бир_ОсновнаяРоль</roles>
-  <roles>Role.бир_СобытияИспользование</roles>
-  <roles>Role.бир_СобытияНастройка</roles>
+  <roles>Role.бир_ПолныеПрава</roles>
   <roles>Role.бир_СохранениеВосстановлениеДанных</roles>
   <roles>Role.бир_ЧтениеНастроекРасположенияИБ</roles>
-  <commonTemplates>CommonTemplate.бир_ВерсияСистемы</commonTemplates>
+  <roles>Role.бир_ЧтениеНастроекСобытий</roles>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
@@ -132,6 +133,7 @@
   <catalogs>Catalog.бир_СобытияТочкиВозникновения</catalogs>
   <dataProcessors>DataProcessor.бир_ВнешниеИБКонсоль</dataProcessors>
   <dataProcessors>DataProcessor.бир_ПреобразованиеДанных</dataProcessors>
+  <dataProcessors>DataProcessor.бир_ПраваНаОбъект</dataProcessors>
   <dataProcessors>DataProcessor.бир_ПроцессорЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД</dataProcessors>
   <dataProcessors>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ</dataProcessors>
@@ -144,5 +146,5 @@
   <informationRegisters>InformationRegister.бир_СобытияНазначенныеОбработчики</informationRegisters>
   <informationRegisters>InformationRegister.бир_СобытияОбработка</informationRegisters>
   <informationRegisters>InformationRegister.бир_СобытияОбработкаНаКлиенте</informationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

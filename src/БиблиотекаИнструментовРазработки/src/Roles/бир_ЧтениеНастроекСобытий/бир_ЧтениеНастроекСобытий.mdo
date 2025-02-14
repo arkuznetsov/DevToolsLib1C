@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60815868-85f8-4875-abb5-638841ff6389">
-  <name>бир_СобытияИспользование</name>
+  <name>бир_ЧтениеНастроекСобытий</name>
   <synonym>
     <key>ru</key>
-    <value>Управления событиями: Использование</value>
+    <value>БИР: Чтение настроек событий</value>
   </synonym>
 </mdclass:Role>

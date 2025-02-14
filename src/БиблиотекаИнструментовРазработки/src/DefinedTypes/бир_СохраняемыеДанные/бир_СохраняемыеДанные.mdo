@@ -12,7 +12,7 @@
     <types>CatalogRef.бир_СобытияОбработчики</types>
     <types>CatalogRef.бир_НастройкиРасположенияИБ</types>
     <types>CatalogRef.бир_РасположенияИБ</types>
-    <types>ChartOfCharacteristicTypesRef.бир_Служебный_НастраиваемыеЗначения</types>
+    <types>ChartOfCharacteristicTypesRef.бир_НастраиваемыеЗначения</types>
     <types>CatalogRef.бир_ЗапросыКДанным</types>
     <types>CatalogRef.бир_События</types>
     <types>CatalogRef.бир_АдресаСервисов</types>

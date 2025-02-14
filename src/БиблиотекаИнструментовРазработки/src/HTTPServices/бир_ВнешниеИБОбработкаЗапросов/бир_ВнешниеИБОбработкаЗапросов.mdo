@@ -3,7 +3,7 @@
   <name>бир_ВнешниеИБОбработкаЗапросов</name>
   <synonym>
     <key>ru</key>
-    <value>DB data inteface</value>
+    <value>Обработка внешних запросов (БИР)</value>
   </synonym>
   <rootURL>IDBData</rootURL>
   <sessionMaxAge>20</sessionMaxAge>

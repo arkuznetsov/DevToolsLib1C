@@ -70,6 +70,13 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.бир_ПроцессорЗапросов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.бир_СобытияНазначенныеОбработчики.Resource.ОбрабатыватьНаКлиенте</name>
 		<right>
 			<name>Edit</name>
@@ -162,6 +169,13 @@
 	</object>
 	<object>
 		<name>InformationRegister.бир_СобытияОбработкаНаКлиенте.Dimension.Пользователь</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бир_События.Resource.ИдПервичный</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -531,10 +545,24 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.бир_СобытияОбработкаНаКлиенте.Resource.Обработано</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.бир_СобытияПроверка_УниверсальнаяПроверка</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

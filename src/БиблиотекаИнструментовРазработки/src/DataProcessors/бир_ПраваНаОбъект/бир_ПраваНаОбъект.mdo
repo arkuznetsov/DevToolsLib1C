@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c46e2a41-c9d1-4669-a869-858fa2c8147d">
+  <producedTypes>
+    <objectType typeId="5875edcd-733d-4902-abd5-0097f58fd853" valueTypeId="ef7313e9-9aeb-4c21-8307-847dfa8d7f44"/>
+    <managerType typeId="6cb0fe84-a381-4784-a0d5-dbb52cf855cb" valueTypeId="0edb14cc-16ca-4bce-b039-c59dc5400fcd"/>
+  </producedTypes>
+  <name>бир_ПраваНаОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права на объект</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бир_ПраваНаОбъект.Form.Форма</defaultForm>
+  <attributes uuid="6f538315-b654-4a4f-8032-38c366ae1f35">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="405e290c-baf4-4a58-83db-74937008ed9b">
+    <name>ТипОбъектовОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объектов описание</value>
+    </synonym>
+    <type>
+      <types>TypeDescription</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e9e7cad1-f54a-4592-b433-00b1f67ac056">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

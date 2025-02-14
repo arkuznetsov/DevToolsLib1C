@@ -8,13 +8,13 @@
     <managerType typeId="df334a72-12f4-4d28-af7d-4736a02e50fb" valueTypeId="9aa52b2f-7e8e-4cdf-bbd0-388f5f503c0c"/>
     <containerType typeId="f79e30ea-f42d-4983-9627-c1ccc25cde3a" valueTypeId="7a96783f-acb4-4101-8871-d415f34d7463"/>
   </producedTypes>
-  <name>бир_Служебный_НастраиваемыеЗначения</name>
+  <name>бир_НастраиваемыеЗначения</name>
   <synonym>
     <key>ru</key>
-    <value>Служебные значения (WFT)</value>
+    <value>НастраиваемыеЗначения (БИР)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -140,9 +140,9 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultFolderForm>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения.Form.ФормаГруппы</defaultFolderForm>
-  <defaultListForm>ChartOfCharacteristicTypes.бир_Служебный_НастраиваемыеЗначения.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.Form.ФормаСписка</defaultListForm>
   <attributes uuid="f3ef39bc-db6e-468e-a3a2-695aee4cb482">
     <name>Значение</name>
     <synonym>

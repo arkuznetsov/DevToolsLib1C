@@ -3,7 +3,7 @@
   <name>бир_ВнешниеСобытия</name>
   <synonym>
     <key>ru</key>
-    <value>Внешние события (WFT)</value>
+    <value>Обработка внешних событий (БИР)</value>
   </synonym>
   <rootURL>EventHub</rootURL>
   <sessionMaxAge>20</sessionMaxAge>

@@ -11,9 +11,23 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.бир_ПроцессорЗапросов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.бир_ВнешниеИБОбработкаЗапросов.URLTemplate.РезультатЗапроса.Method.Get</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.бир_ЗапросыКДанным</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -64,6 +78,13 @@
 		</right>
 		<right>
 			<name>Output</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.бир_ПреобразованиеДанных</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>

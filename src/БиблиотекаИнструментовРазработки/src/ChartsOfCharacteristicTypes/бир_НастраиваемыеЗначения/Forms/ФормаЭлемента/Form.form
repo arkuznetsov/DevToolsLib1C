@@ -490,7 +490,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ChartOfCharacteristicTypesObject.бир_Служебный_НастраиваемыеЗначения</types>
+      <types>ChartOfCharacteristicTypesObject.бир_НастраиваемыеЗначения</types>
     </valueType>
     <view>
       <common>true</common>

@@ -3,6 +3,6 @@
   <name>бир_ИспользованиеСервисаПолученияДанных</name>
   <synonym>
     <key>ru</key>
-    <value>Использование сервиса получения данных (IDBData)</value>
+    <value>БИР: Использование сервиса получения данных (IDBData)</value>
   </synonym>
 </mdclass:Role>
