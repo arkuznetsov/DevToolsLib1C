@@ -41,6 +41,9 @@
           <key>ru</key>
           <value>Не указан</value>
         </presentation>
+        <value xsi:type="core:NumberValue">
+          <value>0</value>
+        </value>
       </choiceList>
       <choiceList>
         <presentation>
