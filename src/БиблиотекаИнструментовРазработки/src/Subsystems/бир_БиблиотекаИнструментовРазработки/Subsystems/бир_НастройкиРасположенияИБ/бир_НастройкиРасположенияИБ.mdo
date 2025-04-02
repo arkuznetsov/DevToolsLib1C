@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70989bb8-451a-4c1c-88c1-12013f33f910">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dbf63de-d42a-4e13-aec0-759fda993e50">
   <name>бир_НастройкиРасположенияИБ</name>
   <synonym>
     <key>ru</key>
@@ -40,5 +40,5 @@
   <content>SessionParameter.бир_ТекущееРасположениеИБ</content>
   <content>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</content>
   <content>CommonModule.бир_РасположениеИБКлиентСервер</content>
-  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+  <parentSubsystem>Subsystem.бир_БиблиотекаИнструментовРазработки</parentSubsystem>
 </mdclass:Subsystem>

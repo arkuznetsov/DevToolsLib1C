@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_НастройкиРасположенияИБ</name>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_НастройкиРасположенияИБ</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

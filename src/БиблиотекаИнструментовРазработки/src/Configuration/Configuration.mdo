@@ -44,7 +44,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.бир_БиблиотекаИнструментовРазработки</subsystems>
   <styles>Style.бир_Бежевый</styles>
   <styles>Style.бир_Голубой</styles>
@@ -62,6 +61,11 @@
   <commonPictures>CommonPicture.бир_РасположениеБазы32</commonPictures>
   <commonPictures>CommonPicture.бир_РасположениеБазы48</commonPictures>
   <commonPictures>CommonPicture.бир_РасположениеБазы64</commonPictures>
+  <commonPictures>CommonPicture.бир_ИнструментыРазработки16</commonPictures>
+  <commonPictures>CommonPicture.бир_ИнструментыРазработки24</commonPictures>
+  <commonPictures>CommonPicture.бир_ИнструментыРазработки32</commonPictures>
+  <commonPictures>CommonPicture.бир_ИнструментыРазработки48</commonPictures>
+  <commonPictures>CommonPicture.бир_ИнструментыРазработки64</commonPictures>
   <sessionParameters>SessionParameter.бир_ТекущееРасположениеИБ</sessionParameters>
   <roles>Role.бир_БазовыеПрава</roles>
   <roles>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</roles>
@@ -76,6 +80,7 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.бир_ВнешниеИБОбработкаЗапросов</commonModules>
@@ -121,9 +126,18 @@
   <definedTypes>DefinedType.бир_СохраняемыеДанные</definedTypes>
   <commandGroups>CommandGroup.бир_СохранениеВосстановлениеДанных</commandGroups>
   <constants>Constant.бир_ПоследнееРасположениеИБ</constants>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Календари</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
+  <catalogs>Catalog.РолиИсполнителей</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.бир_АдресаСервисов</catalogs>
   <catalogs>Catalog.бир_ЗапросыКДанным</catalogs>
   <catalogs>Catalog.бир_НастройкиРасположенияИБ</catalogs>

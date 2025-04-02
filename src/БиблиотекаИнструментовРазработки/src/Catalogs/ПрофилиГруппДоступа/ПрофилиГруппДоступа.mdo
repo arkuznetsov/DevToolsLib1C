@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0116c182-f38a-4dba-9903-6248187fbc92" extendedConfigurationObject="f31f3dab-5796-47ac-a54d-3081f8cad817">
+  <producedTypes>
+    <objectType typeId="a7e45ff7-ab00-4672-a0ab-ceb5ce5fa5d1" valueTypeId="166ef348-d45e-4049-8b5e-bef0de810bf9"/>
+    <refType typeId="bd281e6c-cb4b-4715-9cb2-19d648b5aa43" valueTypeId="9284d1cf-f84c-4b7a-92e9-826cde317fb2"/>
+    <selectionType typeId="44a763d3-9ebf-4ca6-885f-f8ebff5cf190" valueTypeId="8933b577-471d-439b-949a-3ed3a753893b"/>
+    <listType typeId="434a3ff4-61a6-42df-ae0d-4065f8ee4425" valueTypeId="9fc3900e-1473-4c52-ab2a-507679a22bcd"/>
+    <managerType typeId="47aeed3d-c76f-451e-8bad-1a768f0afd33" valueTypeId="4da215cf-5794-45d9-a5e9-79d400793857"/>
+  </producedTypes>
+  <name>ПрофилиГруппДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

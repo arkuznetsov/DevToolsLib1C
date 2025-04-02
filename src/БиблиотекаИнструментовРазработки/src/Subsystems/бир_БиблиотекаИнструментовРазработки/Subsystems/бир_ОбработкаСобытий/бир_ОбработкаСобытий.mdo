@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a2d7c6-26c9-4ce9-baf8-923ffffba8ff">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95079b65-8860-4668-8eb5-a1dc9bdd6226">
   <name>бир_ОбработкаСобытий</name>
   <synonym>
     <key>ru</key>
@@ -58,5 +58,5 @@
   <content>Catalog.бир_ЗапросыКДанным</content>
   <content>Role.бир_ИспользованиеСервисаСобытий</content>
   <content>Role.бир_ИспользованиеСервисаПолученияДанных</content>
-  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+  <parentSubsystem>Subsystem.бир_БиблиотекаИнструментовРазработки</parentSubsystem>
 </mdclass:Subsystem>

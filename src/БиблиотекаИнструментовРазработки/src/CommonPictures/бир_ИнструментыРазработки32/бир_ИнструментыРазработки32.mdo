@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82acda40-4862-403b-a677-952414cf7cba">
+  <name>бир_ИнструментыРазработки32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты разработки (32 px)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

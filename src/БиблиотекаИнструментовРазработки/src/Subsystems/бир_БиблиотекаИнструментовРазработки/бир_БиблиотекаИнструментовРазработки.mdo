@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd69a394-3013-401b-b0a8-747d9f9f6989">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd69a394-3013-401b-b0a8-747d9f9f6989">
   <name>бир_БиблиотекаИнструментовРазработки</name>
   <synonym>
     <key>ru</key>
-    <value>Библиотека инструментов разработки</value>
+    <value>Инструменты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.бир_ИнструментыРазработки16</picture>
+  </picture>
   <content>InformationRegister.бир_СобытияОбработкаНаКлиенте</content>
   <content>InformationRegister.бир_СобытияОбработка</content>
   <content>InformationRegister.бир_СобытияНазначенныеОбработчики</content>
@@ -97,4 +101,13 @@
   <content>Style.бир_Фуксия</content>
   <content>Style.бир_Хаки</content>
   <content>DataProcessor.бир_ПраваНаОбъект</content>
+  <content>CommonPicture.бир_ИнструментыРазработки16</content>
+  <content>CommonPicture.бир_ИнструментыРазработки24</content>
+  <content>CommonPicture.бир_ИнструментыРазработки48</content>
+  <content>CommonPicture.бир_ИнструментыРазработки64</content>
+  <content>CommonPicture.бир_ИнструментыРазработки32</content>
+  <subsystems>бир_ИнструментыИнтеграции</subsystems>
+  <subsystems>бир_НастройкиРасположенияИБ</subsystems>
+  <subsystems>бир_ОбработкаСобытий</subsystems>
+  <subsystems>бир_СохранениеДанных</subsystems>
 </mdclass:Subsystem>

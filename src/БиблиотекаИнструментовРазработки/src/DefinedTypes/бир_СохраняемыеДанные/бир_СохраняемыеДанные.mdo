@@ -10,12 +10,25 @@
   </synonym>
   <type>
     <types>CatalogRef.бир_СобытияОбработчики</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogRef.бир_НастройкиРасположенияИБ</types>
+    <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    <types>CatalogRef.ПроизводственныеКалендари</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.бир_РасположенияИБ</types>
+    <types>ExchangePlanRef.бир_ИнформационныеБазы</types>
     <types>ChartOfCharacteristicTypesRef.бир_НастраиваемыеЗначения</types>
+    <types>CatalogRef.Календари</types>
     <types>CatalogRef.бир_ЗапросыКДанным</types>
     <types>CatalogRef.бир_События</types>
     <types>CatalogRef.бир_АдресаСервисов</types>
+    <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogRef.РолиИсполнителей</types>
     <types>CatalogRef.бир_СобытияТочкиВозникновения</types>
+    <types>CatalogRef.ПрофилиГруппДоступа</types>
+    <types>CatalogRef.ВнешниеПользователи</types>
+    <types>CatalogRef.ВариантыОтчетов</types>
+    <types>CatalogRef.СтраныМира</types>
   </type>
 </mdclass:DefinedType>

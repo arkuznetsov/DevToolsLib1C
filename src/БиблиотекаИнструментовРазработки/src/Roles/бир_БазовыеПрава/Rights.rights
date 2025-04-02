@@ -150,13 +150,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_Интеграция</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.бир_РасположенияИБ.Attribute.ВыводитьСообщениеПользователю</name>
 		<right>
 			<name>Edit</name>
@@ -606,6 +599,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_НастройкиРасположенияИБ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.бир_ЗапросыКДанным.Attribute.Описание</name>
 		<right>
 			<name>Edit</name>
@@ -652,13 +652,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_ОбработкаСобытий</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -736,13 +729,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_НастройкиРасположенияИБ</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1060,6 +1046,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_ОбработкаСобытий</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.Attribute.ОписаниеЗначения</name>
 		<right>
 			<name>Edit</name>
@@ -1137,6 +1130,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_СохранениеДанных</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.бир_НастройкиРасположенияИБ.TabularSection.ПараметрыПользователей</name>
 		<right>
 			<name>Edit</name>
@@ -1148,13 +1148,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_СохранениеДанных</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1432,6 +1425,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_ИнструментыИнтеграции</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

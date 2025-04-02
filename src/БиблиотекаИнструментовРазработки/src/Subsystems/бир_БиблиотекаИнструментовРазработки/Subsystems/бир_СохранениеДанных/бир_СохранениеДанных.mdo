@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a1f42f-a866-4828-8ec6-a6e920f4586f">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a81f036d-7ef2-4b1d-9a0a-a8e3845e362b">
   <name>бир_СохранениеДанных</name>
   <synonym>
     <key>ru</key>
@@ -13,5 +13,5 @@
   <content>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</content>
   <content>Role.бир_СохранениеВосстановлениеДанных</content>
   <content>CommandGroup.бир_СохранениеВосстановлениеДанных</content>
-  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+  <parentSubsystem>Subsystem.бир_БиблиотекаИнструментовРазработки</parentSubsystem>
 </mdclass:Subsystem>

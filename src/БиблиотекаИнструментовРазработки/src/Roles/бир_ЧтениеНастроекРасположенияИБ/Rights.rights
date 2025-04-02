@@ -71,4 +71,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>SessionParameter.бир_ТекущееРасположениеИБ</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

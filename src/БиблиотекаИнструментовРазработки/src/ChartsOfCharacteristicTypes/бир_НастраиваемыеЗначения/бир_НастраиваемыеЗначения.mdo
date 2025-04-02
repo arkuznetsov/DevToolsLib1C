@@ -11,7 +11,7 @@
   <name>бир_НастраиваемыеЗначения</name>
   <synonym>
     <key>ru</key>
-    <value>НастраиваемыеЗначения (БИР)</value>
+    <value>Настраиваемые значения (БИР)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.StandardAttribute.Description</inputByString>
@@ -95,7 +95,9 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>Boolean</types>
+    <types>CatalogRef.бир_ЗапросыКДанным</types>
     <types>String</types>
+    <types>CatalogRef.бир_АдресаСервисов</types>
     <types>Date</types>
     <types>Number</types>
     <numberQualifiers>
@@ -150,15 +152,13 @@
       <value>Значение</value>
     </synonym>
     <type>
-      <types>Boolean</types>
-      <types>String</types>
-      <types>AnyRef</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <types>Characteristic.бир_НастраиваемыеЗначения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.StandardAttribute.ValueType</field>
+    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -207,15 +207,13 @@
         <value>Значение</value>
       </synonym>
       <type>
-        <types>Boolean</types>
-        <types>String</types>
-        <types>AnyRef</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
+        <types>Characteristic.бир_НастраиваемыеЗначения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <linkByType>
+        <field>ChartOfCharacteristicTypes.бир_НастраиваемыеЗначения.StandardAttribute.ValueType</field>
+      </linkByType>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

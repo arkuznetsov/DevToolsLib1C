@@ -94,13 +94,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_Интеграция</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>HTTPService.бир_ВнешниеСобытия.URLTemplate.ВозможныеСобытия.Method.Get</name>
 		<right>
 			<name>Use</name>
@@ -424,6 +417,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_НастройкиРасположенияИБ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.бир_СобытияОбработчик_УниверсальныйОбработчик</name>
 		<right>
 			<name>Use</name>
@@ -435,21 +435,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_ОбработкаСобытий</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.бир_СобытияНазначенныеОбработчики.Command.СобытияНазначенныеОбработчикиОбщие</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_НастройкиРасположенияИБ</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -833,6 +819,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_ОбработкаСобытий</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.бир_ПоследнееРасположениеИБ</name>
 		<right>
 			<name>Read</name>
@@ -973,7 +966,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Администрирование.Subsystem.бир_СохранениеДанных</name>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_СохранениеДанных</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1172,6 +1165,13 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.бир_БиблиотекаИнструментовРазработки.Subsystem.бир_ИнструментыИнтеграции</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
