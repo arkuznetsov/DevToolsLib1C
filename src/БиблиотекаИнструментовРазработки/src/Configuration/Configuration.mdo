@@ -32,7 +32,7 @@
   <defaultRoles>Role.бир_ПолныеПрава</defaultRoles>
   <defaultRoles>Role.бир_БазовыеПрава</defaultRoles>
   <vendor>ktb</vendor>
-  <version>1.0.2.0</version>
+  <version>1.0.3.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="80cf718b-3be0-4bdc-a001-e4eb068c284d" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
