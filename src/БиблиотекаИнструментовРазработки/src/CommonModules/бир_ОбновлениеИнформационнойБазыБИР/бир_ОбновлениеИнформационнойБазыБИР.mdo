@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20f04a92-1164-4bf5-9ac8-f5a4580ead8c">
-  <name>бир_ОбновлениеИнформационнойБазы</name>
+  <name>бир_ОбновлениеИнформационнойБазыБИР</name>
   <synonym>
     <key>ru</key>
-    <value>Обновление информационной базы</value>
+    <value>Обновление информационной базы (БИР)</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

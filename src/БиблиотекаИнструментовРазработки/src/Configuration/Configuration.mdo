@@ -88,7 +88,7 @@
   <commonModules>CommonModule.бир_КоннекторHTTP</commonModules>
   <commonModules>CommonModule.бир_ВнешниеСобытияОтправкаЗапросов</commonModules>
   <commonModules>CommonModule.бир_ВнешниеИБПолучениеДанных</commonModules>
-  <commonModules>CommonModule.бир_ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.бир_ОбновлениеИнформационнойБазыБИР</commonModules>
   <commonModules>CommonModule.бир_ОбработкиОбслуживания</commonModules>
   <commonModules>CommonModule.бир_ОбработкиОбслуживанияВызовСервера</commonModules>
   <commonModules>CommonModule.бир_ОбработкиОбслуживанияКлиент</commonModules>

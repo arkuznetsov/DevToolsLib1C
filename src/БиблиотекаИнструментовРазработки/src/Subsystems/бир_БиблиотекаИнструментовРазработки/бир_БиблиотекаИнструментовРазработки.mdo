@@ -44,7 +44,7 @@
   <content>CommonModule.бир_ОбработкиОбслуживанияКлиент</content>
   <content>CommonModule.бир_ОбработкиОбслуживанияВызовСервера</content>
   <content>CommonModule.бир_ОбработкиОбслуживания</content>
-  <content>CommonModule.бир_ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.бир_ОбновлениеИнформационнойБазыБИР</content>
   <content>CommonModule.бир_ВнешниеИБПолучениеДанных</content>
   <content>CommonModule.бир_ВнешниеСобытияОтправкаЗапросов</content>
   <content>CommonModule.бир_КоннекторHTTP</content>
