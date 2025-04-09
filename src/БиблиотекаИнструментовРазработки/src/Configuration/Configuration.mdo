@@ -56,16 +56,18 @@
   <styles>Style.бир_ТемноСерый</styles>
   <styles>Style.бир_Фуксия</styles>
   <styles>Style.бир_Хаки</styles>
-  <commonPictures>CommonPicture.бир_РасположениеБазы16</commonPictures>
-  <commonPictures>CommonPicture.бир_РасположениеБазы24</commonPictures>
-  <commonPictures>CommonPicture.бир_РасположениеБазы32</commonPictures>
-  <commonPictures>CommonPicture.бир_РасположениеБазы48</commonPictures>
-  <commonPictures>CommonPicture.бир_РасположениеБазы64</commonPictures>
   <commonPictures>CommonPicture.бир_ИнструментыРазработки16</commonPictures>
   <commonPictures>CommonPicture.бир_ИнструментыРазработки24</commonPictures>
   <commonPictures>CommonPicture.бир_ИнструментыРазработки32</commonPictures>
   <commonPictures>CommonPicture.бир_ИнструментыРазработки48</commonPictures>
   <commonPictures>CommonPicture.бир_ИнструментыРазработки64</commonPictures>
+  <commonPictures>CommonPicture.бир_Интеграция24</commonPictures>
+  <commonPictures>CommonPicture.бир_Интеграция48</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы16</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы24</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы32</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы48</commonPictures>
+  <commonPictures>CommonPicture.бир_РасположениеБазы64</commonPictures>
   <sessionParameters>SessionParameter.бир_ТекущееРасположениеИБ</sessionParameters>
   <roles>Role.бир_БазовыеПрава</roles>
   <roles>Role.бир_ДобавлениеИзменениеНастроекРасположенияИБ</roles>

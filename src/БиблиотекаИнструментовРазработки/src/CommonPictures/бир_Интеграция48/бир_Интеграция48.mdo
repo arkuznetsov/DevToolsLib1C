@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1380b7bc-161c-4c22-a667-3c4a6643ea88">
+  <name>бир_Интеграция48</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция (48 px)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>
