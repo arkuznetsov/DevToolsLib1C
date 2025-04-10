@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.бир_ЗапросыКДанным.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_ПроцессорЗапросов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
+      <commands>Catalog.бир_АдресаСервисов.StandardCommand.OpenList</commands>
+      <commands>Catalog.бир_ЗапросыКДанным.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.бир_ИнформационныеБазы.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

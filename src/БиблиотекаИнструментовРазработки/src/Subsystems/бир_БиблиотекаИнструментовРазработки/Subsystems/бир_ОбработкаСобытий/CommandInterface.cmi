@@ -2,30 +2,52 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>0:d84cd690-0258-0000-6abd-27acfb7f0000</command>
+      <command>Catalog.бир_АдресаСервисов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:00000000-d690-d84c-5802-00006abd27ac</command>
+      <command>InformationRegister.бир_События.Command.ЖурналСобытийОбщий</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:00000000-0000-0000-90d6-4cd858020000</command>
+      <command>Catalog.бир_ЗапросыКДанным.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:00000000-0000-0000-0000-000090d64cd8</command>
+      <command>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияОбработчик_ПередатьСобытиеВнешнимИБ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияПроверка_ИзменениеОбъекта.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияПроверка_УниверсальнаяПроверка.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_ПроцессорЗапросов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СобытияОбработчик_УниверсальныйОбработчик.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
-      <commands>0:b392c7e0-0099-0000-00f1-3efb58020000</commands>
+      <commands>Catalog.бир_АдресаСервисов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.бир_События.Command.ЖурналСобытийОбщий</commands>
+      <commands>Catalog.бир_ЗапросыКДанным.StandardCommand.OpenList</commands>
+      <commands>Catalog.бир_События.StandardCommand.OpenList</commands>
+      <commands>Catalog.бир_СобытияОбработчики.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.бир_СобытияНазначенныеОбработчики.Command.СобытияНазначенныеОбработчикиОбщие</commands>
+      <commands>Catalog.бир_СобытияТочкиВозникновения.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

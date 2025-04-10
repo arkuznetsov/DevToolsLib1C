@@ -14,6 +14,14 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.бир_АдресаСервисов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ExchangePlan.бир_ИнформационныеБазы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.бир_СобытияНазначенныеОбработчики.Command.СобытияНазначенныеОбработчикиОбщие</command>
       <visible/>
     </visibilityFragments>
@@ -38,6 +46,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>DataProcessor.бир_ВнешниеИБКонсоль.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.бир_СобытияОбработчик_ИзменениеПользователейАД.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -55,6 +67,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.бир_ПроцессорЗапросов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бир_СохранениеВосстановлениеДанных.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
