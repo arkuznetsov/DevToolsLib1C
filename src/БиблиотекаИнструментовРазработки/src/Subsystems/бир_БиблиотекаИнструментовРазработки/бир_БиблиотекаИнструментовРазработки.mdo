@@ -107,6 +107,8 @@
   <content>CommonPicture.бир_ИнструментыРазработки64</content>
   <content>CommonPicture.бир_ИнструментыРазработки32</content>
   <content>Role.бир_БазовыеПрава</content>
+  <content>CommonPicture.бир_Интеграция48</content>
+  <content>CommonPicture.бир_Интеграция24</content>
   <subsystems>бир_ИнструментыИнтеграции</subsystems>
   <subsystems>бир_НастройкиРасположенияИБ</subsystems>
   <subsystems>бир_ОбработкаСобытий</subsystems>

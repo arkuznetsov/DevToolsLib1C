@@ -138,10 +138,6 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <handlers>
-        <event>StartListChoice</event>
-        <name>ИмяБазыНачалоВыбораИзСписка</name>
-      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
@@ -626,30 +622,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаписатьПроизвольныйКод</name>
-    <title>
-      <key>ru</key>
-      <value>Записать произвольный код</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Записать произвольный код</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.EndEdit</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаписатьПроизвольныйКод</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>

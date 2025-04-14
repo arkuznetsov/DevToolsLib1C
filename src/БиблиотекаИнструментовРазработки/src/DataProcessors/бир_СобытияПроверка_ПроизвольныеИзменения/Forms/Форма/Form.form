@@ -197,10 +197,6 @@
           <name>СвязанныеДанныеПолеНачалоВыбора</name>
         </handlers>
         <handlers>
-          <event>StartListChoice</event>
-          <name>СвязанныеДанныеПолеНачалоВыбораИзСписка</name>
-        </handlers>
-        <handlers>
           <event>ChoiceProcessing</event>
           <name>СвязанныеДанныеПолеОбработкаВыбора</name>
         </handlers>
@@ -651,48 +647,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СохранитьНастройку</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПроверяемыеПоказывать</name>
-    <title>
-      <key>ru</key>
-      <value>Проверяемые показывать</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Проверяемые показывать</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПроверяемыеПоказывать</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ИсключаемыеПоказывать</name>
-    <title>
-      <key>ru</key>
-      <value>Только выбранные</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Исключаемые показывать</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ИсключаемыеПоказывать</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
