@@ -102,6 +102,7 @@
   <commonModules>CommonModule.бир_СобытияГлобальный</commonModules>
   <commonModules>CommonModule.бир_СобытияКлиент</commonModules>
   <commonModules>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентПереопределяемый</commonModules>
   <exchangePlans>ExchangePlan.бир_ИнформационныеБазы</exchangePlans>
   <httpServices>HTTPService.бир_ВнешниеИБОбработкаЗапросов</httpServices>
   <httpServices>HTTPService.бир_ВнешниеСобытия</httpServices>
