@@ -698,6 +698,74 @@
       <name>ГруппаВосстановление</name>
       <id>102</id>
       <items xsi:type="form:FormField">
+        <name>СпособОбработкиБитыхСсылок</name>
+        <id>129</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СпособОбработкиБитыхСсылок</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СпособОбработкиБитыхСсылокРасширеннаяПодсказка</name>
+          <id>131</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СпособОбработкиБитыхСсылокКонтекстноеМеню</name>
+          <id>130</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <dropListButton>true</dropListButton>
+          <listChoiceMode>true</listChoiceMode>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>Очищать</value>
+            </presentation>
+            <value xsi:type="core:NumberValue">
+              <value>0</value>
+            </value>
+          </choiceList>
+          <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>Сохранять</value>
+            </presentation>
+            <value xsi:type="core:NumberValue">
+              <value>1</value>
+            </value>
+          </choiceList>
+          <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>Вызывать исключение</value>
+            </presentation>
+            <value xsi:type="core:NumberValue">
+              <value>2</value>
+            </value>
+          </choiceList>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ПоказатьДиалогВыбора</name>
         <id>126</id>
         <visible>true</visible>
@@ -941,6 +1009,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>КолонкаЗапроса</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ОграничениеТипа</name>
@@ -951,23 +1022,6 @@
     <id>2</id>
     <valueType>
       <types>TypeDescription</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>РезервноеКопирование</name>
-    <title>
-      <key>ru</key>
-      <value>Резервное копирование</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -992,6 +1046,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ПоказатьДиалогВыбора</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>СсылкаНаОбъект</name>
@@ -1026,6 +1083,33 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ВыгружатьДвижения</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>СпособОбработкиБитыхСсылок</name>
+    <title>
+      <key>ru</key>
+      <value>Способ обработки &quot;битых&quot; ссылок</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СпособОбработкиБитыхСсылок</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ЗаполнитьСписокОбъектов</name>
