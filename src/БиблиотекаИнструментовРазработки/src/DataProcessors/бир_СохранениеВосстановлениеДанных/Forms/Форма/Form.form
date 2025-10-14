@@ -1093,7 +1093,7 @@
       <key>ru</key>
       <value>Способ обработки &quot;битых&quot; ссылок</value>
     </title>
-    <id>9</id>
+    <id>4</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>

@@ -954,6 +954,30 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СпособОбработкиБитыхСсылок</name>
+    <title>
+      <key>ru</key>
+      <value>Способ обработки &quot;битых&quot; ссылок</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СпособОбработкиБитыхСсылок</segments>
+    </settingsSavedData>
+  </attributes>
   <formCommands>
     <name>Загрузить</name>
     <title>
