@@ -6,5 +6,6 @@
     <value>Обрабтка запросов из внешних систем</value>
   </synonym>
   <server>true</server>
+  <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
