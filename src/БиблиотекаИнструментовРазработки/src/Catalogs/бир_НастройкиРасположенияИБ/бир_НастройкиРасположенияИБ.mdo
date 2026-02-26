@@ -212,7 +212,7 @@
       <objectType typeId="454f7aa5-0984-4ec5-aae4-af4680923996" valueTypeId="30d161cf-3d6b-40fc-80f2-f907cf09157b"/>
       <rowType typeId="0295b469-3ddc-4aba-aae8-06921fc2c4a6" valueTypeId="a08dd7d3-e73c-4156-922b-faa731869b4d"/>
     </producedTypes>
-    <name>ПроизвольныйКодПриСменеРасположения</name>
+    <name>ПроизвольныйКод</name>
     <synonym>
       <key>ru</key>
       <value>Произвольный код при смене расположения</value>
@@ -454,6 +454,60 @@
       </synonym>
       <type>
         <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="88658a1e-fde2-4a3f-b4f5-40410758bc0a">
+    <producedTypes>
+      <objectType typeId="7dc29815-61c6-47ac-b993-fecdfc7c04b9" valueTypeId="3f41c638-55ca-4698-a043-9f084b7da94e"/>
+      <rowType typeId="96864451-b688-483b-abfd-4432edeb54b8" valueTypeId="c5b5780f-37b2-4d66-8681-5aae918a9eb0"/>
+    </producedTypes>
+    <name>ЗначенияКонстант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения констант</value>
+    </synonym>
+    <attributes uuid="dadf5151-8079-4b08-a114-bbd9cb2a8954">
+      <name>Константа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Константа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eacd8aa9-8aeb-4502-8d35-de83f14dbcf4">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
