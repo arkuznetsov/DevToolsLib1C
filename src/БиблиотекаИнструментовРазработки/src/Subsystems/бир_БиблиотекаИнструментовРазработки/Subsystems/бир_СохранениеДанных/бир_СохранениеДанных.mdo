@@ -10,7 +10,7 @@
   <content>DataProcessor.бир_ПреобразованиеДанных</content>
   <content>DataProcessor.бир_ПроцессорЗапросов</content>
   <content>DataProcessor.бир_СохранениеВосстановлениеДанных</content>
-  <content>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</content>
+  <content>CommonModule.бир_СохранениеВосстановлениеДанныхПереопределяемый</content>
   <content>Role.бир_СохранениеВосстановлениеДанных</content>
   <content>CommandGroup.бир_СохранениеВосстановлениеДанных</content>
   <parentSubsystem>Subsystem.бир_БиблиотекаИнструментовРазработки</parentSubsystem>

@@ -33,7 +33,7 @@
   <content>Catalog.бир_СобытияОбработчики</content>
   <content>Catalog.бир_СобытияТочкиВозникновения</content>
   <content>Constant.бир_ПоследнееРасположениеИБ</content>
-  <content>CommonModule.бир_СохранениеВосстановлениеДанныхКлиент</content>
+  <content>CommonModule.бир_СохранениеВосстановлениеДанныхПереопределяемый</content>
   <content>CommonModule.бир_СобытияКлиент</content>
   <content>CommonModule.бир_СобытияГлобальный</content>
   <content>CommonModule.бир_СобытияВызовСервера</content>
