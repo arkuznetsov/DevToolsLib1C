@@ -78,35 +78,6 @@
       <autoMaxHeight>true</autoMaxHeight>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>ТипДанных</name>
-    <id>46</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ТипДанныхРасширеннаяПодсказка</name>
-      <id>48</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ТипДанныхКонтекстноеМеню</name>
-      <id>47</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <horizontalAlign>Left</horizontalAlign>
-    </extInfo>
-  </items>
   <items xsi:type="form:Table">
     <name>ВыборДанных</name>
     <id>1</id>
@@ -136,10 +107,6 @@
         <segments>ВыборДанных.Пометка</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВыборДанныхПометкаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВыборДанныхПометкаРасширеннаяПодсказка</name>
         <id>16</id>
@@ -162,11 +129,11 @@
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВыборДанныхПредставлениеОбъекта</name>
+      <name>ВыборДанныхЗагружаемыеДанныеПредставление</name>
       <id>17</id>
       <title>
         <key>ru</key>
-        <value>Восстанавливаемый объект</value>
+        <value>Восстанавливаемые данные</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -174,10 +141,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ВыборДанных.ПредставлениеОбъекта</segments>
+        <segments>ВыборДанных.ЗагружаемыеДанныеПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВыборДанныхПредставлениеОбъектаРасширеннаяПодсказка</name>
+        <name>ВыборДанныхЗагружаемыеДанныеПредставлениеРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -187,7 +154,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВыборДанныхПредставлениеОбъектаКонтекстноеМеню</name>
+        <name>ВыборДанныхЗагружаемыеДанныеПредставлениеКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -195,6 +162,7 @@
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <cellHyperlink>true</cellHyperlink>
+      <autoCellHeight>true</autoCellHeight>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -207,7 +175,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВыборДанныхСуществующийОбъект</name>
+      <name>ВыборДанныхДанныеВБазеПредставление</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -215,10 +183,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ВыборДанных.СуществующийОбъект</segments>
+        <segments>ВыборДанных.ДанныеВБазеПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВыборДанныхСуществующийОбъектРасширеннаяПодсказка</name>
+        <name>ВыборДанныхДанныеВБазеПредставлениеРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -228,7 +196,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВыборДанныхСуществующийОбъектКонтекстноеМеню</name>
+        <name>ВыборДанныхДанныеВБазеПредставлениеКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -236,6 +204,7 @@
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <cellHyperlink>true</cellHyperlink>
+      <autoCellHeight>true</autoCellHeight>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -287,6 +256,53 @@
         <typeDomainEnabled>true</typeDomainEnabled>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ВыборДанныхСтатус</name>
+      <id>62</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВыборДанных.Статус</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>ВыборДанныхСтатусРасширеннаяПодсказка</name>
+        <id>64</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВыборДанныхСтатусКонтекстноеМеню</name>
+        <id>63</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>EnterOnInput</editMode>
+      <cellHyperlink>true</cellHyperlink>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>StdPicture.InputFieldOpen</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <autoCommandBar>
       <name>ВыборДанныхКоманднаяПанель</name>
       <id>3</id>
@@ -314,6 +330,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ВыборДанныхСнятьПометки</name>
@@ -339,6 +356,32 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ВыборДанныхИзменитьПутьКИнструментуСравнения</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВыборДанныхИзменитьПутьКИнструментуСравненияРасширеннаяПодсказка</name>
+          <id>61</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ИзменитьПутьКИнструментуСравнения</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
@@ -433,7 +476,6 @@
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -445,7 +487,6 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
@@ -729,23 +770,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>ОграничениеТипа</name>
-    <title>
-      <key>ru</key>
-      <value>Ограничение типа</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>TypeDescription</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ВыборДанных</name>
     <title>
       <key>ru</key>
@@ -779,10 +803,10 @@
       </edit>
     </columns>
     <columns>
-      <name>СтруктураОбъекта</name>
+      <name>ЗагружаемыеДанные</name>
       <title>
         <key>ru</key>
-        <value>Структура объекта</value>
+        <value>Загружаемые данные</value>
       </title>
       <id>2</id>
       <valueType/>
@@ -794,17 +818,13 @@
       </edit>
     </columns>
     <columns>
-      <name>СуществующийОбъект</name>
+      <name>ДанныеВБазе</name>
       <title>
         <key>ru</key>
-        <value>Объект в базе</value>
+        <value>Данные в базе</value>
       </title>
       <id>3</id>
-      <valueType>
-        <types>String</types>
-        <types>AnyRef</types>
-        <stringQualifiers/>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>
@@ -831,10 +851,10 @@
       </edit>
     </columns>
     <columns>
-      <name>ПредставлениеОбъекта</name>
+      <name>ЗагружаемыеДанныеПредставление</name>
       <title>
         <key>ru</key>
-        <value>Объект</value>
+        <value>Загружаемые данные</value>
       </title>
       <id>5</id>
       <valueType>
@@ -849,14 +869,35 @@
       </edit>
     </columns>
     <columns>
-      <name>УдалениеОбъекта</name>
+      <name>ДанныеВБазеПредставление</name>
       <title>
         <key>ru</key>
-        <value>Удаление объекта</value>
+        <value>Данные в базе</value>
       </title>
-      <id>6</id>
+      <id>7</id>
       <valueType>
-        <types>Boolean</types>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Статус</name>
+      <title>
+        <key>ru</key>
+        <value>Статус</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -936,47 +977,6 @@
     <edit>
       <common>true</common>
     </edit>
-  </attributes>
-  <attributes>
-    <name>СсылкаНаОбъект</name>
-    <title>
-      <key>ru</key>
-      <value>Ссылка на объект</value>
-    </title>
-    <id>9</id>
-    <valueType>
-      <types>AnyRef</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СпособОбработкиБитыхСсылок</name>
-    <title>
-      <key>ru</key>
-      <value>Способ обработки &quot;битых&quot; ссылок</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>СпособОбработкиБитыхСсылок</segments>
-    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>Загрузить</name>
@@ -1095,6 +1095,30 @@
       </handler>
     </action>
     <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ИзменитьПутьКИнструментуСравнения</name>
+    <title>
+      <key>ru</key>
+      <value>Изменить путь к инструменту сравнения</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменить путь к инструменту сравнения</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Setting</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИзменитьПутьКИнструментуСравнения</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

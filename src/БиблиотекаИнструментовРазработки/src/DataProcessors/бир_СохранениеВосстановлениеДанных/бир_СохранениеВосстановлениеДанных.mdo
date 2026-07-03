@@ -29,6 +29,24 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f7bf4fc3-9fff-4649-8f9a-ffdd3721ed40">
+    <name>ФормаНабораЗаписейРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей регистра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2fc8f86a-c5be-453a-a0a3-5722861e2815">
+    <name>ФормаВыбораИнструментаСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора инструмента сравнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="37bbb43a-55a2-4461-88bf-d346ea2b4c0b">
     <name>Сохранить</name>
     <synonym>

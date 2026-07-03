@@ -396,7 +396,8 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.бир_СобытияТочкиВозникновения</types>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
